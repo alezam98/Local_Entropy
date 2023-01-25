@@ -1,7 +1,0 @@
-1000
-1PGB
-0
-
-	>> discarded_mutations
-	>> inputs_dir_raw
-	>> const_step
