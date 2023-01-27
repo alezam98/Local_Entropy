@@ -1,21 +1,25 @@
-MTYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE
-100000
+LSIEDFTQAFGMTPAAFSALPRWKQQNLKKEKGLF
+
+10
+10
 0.
 0.03
-8.5
-8.5
+0.
+0.
 1
-results/highgamma
+results/1UNC
 1
-2
+0
 4.
 
 	>> wt_sequence
-	>> num_mutations
-	>> sensitivity
+        >> ref_sequence
+	>> metr_mutations
+        >> eq_mutations
+	>> threshold
 	>> T
-	>> gamma_0
-	>> gamma_1
+	>> gamma_i
+	>> gamma_f
 	>> num_gammas
 	>> results_dir
 	>> restart_bool

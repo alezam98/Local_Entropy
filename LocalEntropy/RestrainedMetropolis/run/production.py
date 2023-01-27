@@ -11,26 +11,31 @@ def read_inputs(input_file):
     with open(input_file, 'r') as file:
         lines = file.readlines()
     wt_sequence = str(lines[0])[:-1]
-    num_mutations = int(lines[1])
-    sensitivity = float(lines[2])
-    T = float(lines[3])
-    gammas = np.linspace(float(lines[4]), float(lines[5]), int(lines[6]))
-    results_dir = lines[7][:-1]
-    restart_bool = bool(int(lines[8]))
-    device = int(lines[9])
-    distance_threshold = float(lines[10])
-    return wt_sequence, num_mutations, sensitivity, T, gammas, results_dir, restart_bool, device, distance_threshold
+    ref_sequence = str(lines[1])[:-1]
+    if ref_sequence == '': ref_sequence = wt_sequence
+    metr_mutations = int(lines[2])
+    eq_mutations = int(lines[3])
+    threshold = float(lines[4])
+    T = float(lines[5])
+    gammas = np.linspace(float(lines[6]), float(lines[7]), int(lines[8]))
+    results_dir = lines[9][:-1]
+    restart_bool = bool(int(lines[10]))
+    device = int(lines[11])
+    distance_threshold = float(lines[12])
+    return wt_sequence, ref_sequence, metr_mutations, eq_mutations, threshold, T, gammas, results_dir, restart_bool, device, distance_threshold
 
 
 def main(args):
     print('Defining wild-type sequence and simulation parameters...')
-    wt_sequence, num_mutations, sensitivity, T, gammas, results_dir, restart_bool, device, distance_threshold = read_inputs(args.input_file)
+    wt_sequence, ref_sequence, metr_mutations, eq_mutations, threshold, T, gammas, results_dir, restart_bool, device, distance_threshold = read_inputs(args.input_file)
     
     print('Initiating algorithm...\n')
     algorithm = Mutation_class(
             wt_sequence = wt_sequence,
-            num_mutations = num_mutations,
-            sensitivity = sensitivity,
+            ref_sequence = ref_sequence,
+            metr_mutations = metr_mutations,
+            eq_mutations = eq_mutations,
+            threshold = threshold,
             T = T,
             results_dir = results_dir,
             restart_bool = restart_bool,

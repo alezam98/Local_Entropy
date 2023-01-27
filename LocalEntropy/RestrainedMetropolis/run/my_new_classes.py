@@ -354,15 +354,19 @@ class Mutation_class(Basic_class):
 
     ### Metropolis algorithm
     def metropolis(self, equilibration = False):
-        # Open files
-        mutants_file = open(f'../{self.results_dir}/mutants_{self.file_id}.dat', 'a')
-        data_file = open(f'../{self.results_dir}/data_{self.file_id}.dat', 'a')
+        # Preparing the simulation
+        if equilibration:
+            mutations = self.eq_mutations
+            mutants_file = open(f'../{self.results_dir}/eq_mutants_{self.file_id}.dat', 'w')
+            data_file = open(f'../{self.results_dir}/eq_data_{self.file_id}.dat', 'w')
+        else:
+            mutations = self.metr_mutations
+            mutants_file = open(f'../{self.results_dir}/mutants_{self.file_id}.dat', 'a')
+            data_file = open(f'../{self.results_dir}/data_{self.file_id}.dat', 'a')
+
         if self.generation == 0:
             print(f'{self.generation}\t{self.last_sequence}', file = mutants_file)
             print(f'{self.generation}\t{format(self.last_eff_energy, ".15f")}\t{format(self.last_ddG, ".15f")}\t{self.last_PAM1_distance}\t{self.last_Hamm_distance}\t{float(self.accepted_mutations)}\t{self.threshold}\t{self.T}\t{self.gamma}\t{len(self.wt_sequence)}', file = data_file)
-
-        if equilibration: mutations = self.eq_mutations
-        else: mutations = self.metr_mutations
 
         # Metropolis
         for imut in range(mutations):

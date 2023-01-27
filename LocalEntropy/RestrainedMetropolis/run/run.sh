@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 set -e
-source "/Data/alessandroz/myenv/bin/activate"
+source "/home/alessandroz/alessandroz/myenv/bin/activate"
 
 # Start the simulations
 #for gamma in 4 5 6
@@ -11,4 +11,4 @@ source "/Data/alessandroz/myenv/bin/activate"
 #	sleep 10 s
 #	nohup python -u production.py >& outputs/output_$gamma.out &
 #done
-nohup python -u production.py >& outputs/output4.out &
+nohup python -u production.py >& outputs/output.out &
