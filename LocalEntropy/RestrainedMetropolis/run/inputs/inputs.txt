@@ -1,0 +1,31 @@
+SM
+1PGB
+MTYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE
+
+
+30_000
+1_000
+0.005
+0.0
+0.0
+1
+results
+1
+2
+4.
+
+	>> simulation type
+	>> protein name
+	>> wt_sequence
+        >> ref_sequence
+	>> starting_sequence
+	>> metr_mutations
+        >> eq_mutations
+	>> T
+	>> gamma_i
+	>> gamma_f
+	>> num_gammas
+	>> results_dir
+	>> restart_bool
+	>> device
+	>> distance_threshold

@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 
 set -e
-source "/home/alessandroz/alessandroz/myenv/bin/activate"
+source "$HOME/workspace/myenv/bin/activate"
 
-# Start the simulations
-#for gamma in 4 5 6
-#do
-#	sed -i "5s/.*/$gamma./" inputs.txt
-#	sed -i "6s/.*/$gamma./" inputs.txt
-#	sleep 10 s
-#	nohup python -u production.py >& outputs/output_$gamma.out &
-#done
-nohup python -u production.py >& outputs/output.out &
+simtype=`sed -n '1p' < inputs/inputs.txt`
+protname=`sed -n '2p' < inputs/inputs.txt`
+T=`sed -n '8p' < inputs/inputs.txt`
+g=`sed -n '9p' < inputs/inputs.txt`
+file_id=$simtype-$protname-T$T-g$g
+# add if statement for multimetropolis
+
+nohup python -u metropolis.py >& outputs/$file_id.out &
