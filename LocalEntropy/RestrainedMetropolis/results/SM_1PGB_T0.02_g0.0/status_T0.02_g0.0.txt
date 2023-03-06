@@ -1,9 +1,0 @@
-Generation:  100
-Wild tipe:   MTYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE
-Reference sequence: wild-type sequence
-Last mutant: FIYKLFLNHQTIIGEATFWASDALHAIDEFENVAHQNDWDGEWFYDDFTKTFSMYC
-Effective energy: 0.08181818181818182
-ddG:              0
-PAM1 distance:    27.357539740945974
-Hamming distance: 29
-

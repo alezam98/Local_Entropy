@@ -1,9 +1,0 @@
-0.0005
-1.0
-1_000
-80_000
-
-	>> T
-	>> energy_threshold
-	>> section_length
-	>> discarded_mutations
