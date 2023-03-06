@@ -1,0 +1,2327 @@
+pid: 2780170
+Collecting pdbs...
+  -total files:     7193
+  -remaining files: 1621 
+
+Loading esmfold model...
+Basic class, status:
+model: esmfold_v1
+device: 2
+distance threshold: 4.0 [A] 
+
+  0%|          | 0/1621 [00:00<?, ?it/s]PDB 5g0j, skipped.
+  0%|          | 1/1621 [00:00<04:11,  6.43it/s]PDB 1h7a, skipped.
+PDB 3u24, skipped.
+  0%|          | 3/1621 [00:00<07:43,  3.49it/s]PDB 4hai, skipped.
+  0%|          | 4/1621 [00:01<06:45,  3.99it/s]PDB 7mzv, skipped.
+  0%|          | 5/1621 [00:01<05:42,  4.72it/s]PDB 5opj, skipped.
+  0%|          | 6/1621 [00:01<07:52,  3.42it/s]PDB 4wl5, skipped.
+  0%|          | 7/1621 [00:01<06:31,  4.12it/s]PDB 5ere, skipped.
+  0%|          | 8/1621 [00:02<08:47,  3.06it/s]PDB 4rh7, skipped.
+  1%|          | 9/1621 [00:02<09:12,  2.92it/s]PDB 7d4c, skipped.
+  1%|          | 10/1621 [00:02<08:06,  3.31it/s]PDB 2oev, skipped.
+  1%|          | 11/1621 [00:03<10:59,  2.44it/s]PDB 2w91, skipped.
+  1%|          | 12/1621 [00:03<11:10,  2.40it/s]PDB 7d5c, skipped.
+  1%|          | 13/1621 [00:04<12:48,  2.09it/s]PDB 4w8j, skipped.
+  1%|          | 14/1621 [00:04<09:59,  2.68it/s]PDB 3la4, skipped.
+  1%|          | 15/1621 [00:05<11:50,  2.26it/s]PDB 6m5a, skipped.
+  1%|          | 16/1621 [00:05<10:47,  2.48it/s]PDB 6n9y, skipped.
+PDB 7jjt, skipped.
+  1%|          | 18/1621 [00:05<08:14,  3.24it/s]PDB 3ayf, skipped.
+  1%|          | 19/1621 [00:06<10:01,  2.66it/s]PDB 6a48, skipped.
+  1%|          | 20/1621 [00:06<08:10,  3.26it/s]PDB 7kve, skipped.
+  1%|▏         | 21/1621 [00:06<07:03,  3.78it/s]PDB 5yy3, skipped.
+  1%|▏         | 22/1621 [00:07<06:41,  3.98it/s]PDB 5u70, skipped.
+  1%|▏         | 23/1621 [00:07<08:56,  2.98it/s]PDB 1tmo, skipped.
+  1%|▏         | 24/1621 [00:08<09:42,  2.74it/s]PDB 4up8, skipped.
+PDB 1dab, skipped.
+  2%|▏         | 26/1621 [00:08<06:24,  4.15it/s]PDB 3wnk, skipped.
+  2%|▏         | 27/1621 [00:08<06:26,  4.13it/s]PDB 5xwk, skipped.
+  2%|▏         | 28/1621 [00:08<06:06,  4.34it/s]PDB 6kfu, skipped.
+  2%|▏         | 29/1621 [00:09<07:48,  3.40it/s]PDB 6qfo, skipped.
+  2%|▏         | 30/1621 [00:10<15:29,  1.71it/s]PDB 3af5, skipped.
+  2%|▏         | 31/1621 [00:10<11:55,  2.22it/s]PDB 7lhw, skipped.
+  2%|▏         | 32/1621 [00:11<14:08,  1.87it/s]PDB 6jta, skipped.
+  2%|▏         | 33/1621 [00:12<19:17,  1.37it/s]PDB 3j25, skipped.
+  2%|▏         | 34/1621 [00:12<14:27,  1.83it/s]PDB 3qr0, skipped.
+  2%|▏         | 35/1621 [00:12<13:03,  2.02it/s]PDB 2cw7, skipped.
+PDB 2xco, skipped.
+  2%|▏         | 37/1621 [00:13<10:37,  2.48it/s]PDB 7ryq, skipped.
+  2%|▏         | 38/1621 [00:13<08:48,  2.99it/s]PDB 1hyu, skipped.
+  2%|▏         | 39/1621 [00:13<08:13,  3.21it/s]PDB 3pfq, skipped.
+PDB 2v5y, skipped.
+  3%|▎         | 41/1621 [00:14<05:24,  4.87it/s]PDB 6lsu, skipped.
+  3%|▎         | 42/1621 [00:14<04:49,  5.45it/s]PDB 6f2p, skipped.
+  3%|▎         | 43/1621 [00:14<08:53,  2.96it/s]PDB 2ylm, skipped.
+  3%|▎         | 44/1621 [00:15<07:29,  3.51it/s]PDB 5bp8, skipped.
+  3%|▎         | 45/1621 [00:15<07:00,  3.75it/s]PDB 5mu5, skipped.
+  3%|▎         | 46/1621 [00:15<06:12,  4.23it/s]PDB 5t8v, skipped.
+  3%|▎         | 47/1621 [00:16<11:44,  2.24it/s]PDB 7kse, skipped.
+  3%|▎         | 48/1621 [00:16<09:06,  2.88it/s]PDB 3ce2, skipped.
+PDB 3nsj, skipped.
+  3%|▎         | 50/1621 [00:16<06:27,  4.06it/s]PDB 4n5a, skipped.
+  3%|▎         | 51/1621 [00:17<05:59,  4.36it/s]PDB 3ucq, skipped.
+  3%|▎         | 52/1621 [00:17<09:43,  2.69it/s]PDB 6orb, skipped.
+  3%|▎         | 53/1621 [00:18<09:04,  2.88it/s]PDB 5ta1, skipped.
+  3%|▎         | 54/1621 [00:18<09:01,  2.90it/s]PDB 3ztv, skipped.
+  3%|▎         | 55/1621 [00:19<11:38,  2.24it/s]PDB 6p74, skipped.
+  3%|▎         | 56/1621 [00:19<09:16,  2.81it/s]PDB 2i1k, skipped.
+PDB 4ql0, skipped.
+  4%|▎         | 58/1621 [00:19<06:58,  3.73it/s]PDB 4hvt, skipped.
+  4%|▎         | 59/1621 [00:19<07:42,  3.38it/s]PDB 6mw4, skipped.
+  4%|▎         | 60/1621 [00:20<09:36,  2.71it/s]PDB 7s9y, skipped.
+  4%|▍         | 61/1621 [00:20<08:05,  3.21it/s]PDB 4akf, skipped.
+PDB 6rc9, skipped.
+  4%|▍         | 63/1621 [00:21<08:57,  2.90it/s]PDB 5gqu, skipped.
+  4%|▍         | 64/1621 [00:22<11:41,  2.22it/s]PDB 1jwy, skipped.
+  4%|▍         | 65/1621 [00:22<10:34,  2.45it/s]PDB 6aho, skipped.
+  4%|▍         | 66/1621 [00:22<10:21,  2.50it/s]PDB 6ajf, skipped.
+  4%|▍         | 67/1621 [00:23<08:56,  2.90it/s]PDB 6hpd, skipped.
+  4%|▍         | 68/1621 [00:23<08:37,  3.00it/s]PDB 3ven, skipped.
+  4%|▍         | 69/1621 [00:24<11:15,  2.30it/s]PDB 4um2, skipped.
+PDB 6nzs, skipped.
+  4%|▍         | 71/1621 [00:24<08:41,  2.97it/s]PDB 7wqx, skipped.
+  4%|▍         | 72/1621 [00:24<07:19,  3.53it/s]PDB 6nr7, skipped.
+  5%|▍         | 73/1621 [00:25<08:26,  3.06it/s]PDB 3g06, skipped.
+  5%|▍         | 74/1621 [00:25<09:33,  2.70it/s]PDB 2et6, skipped.
+  5%|▍         | 75/1621 [00:25<08:48,  2.92it/s]PDB 5a42, skipped.
+  5%|▍         | 76/1621 [00:26<08:07,  3.17it/s]PDB 6lcu, skipped.
+  5%|▍         | 77/1621 [00:26<08:17,  3.10it/s]PDB 6wku, skipped.
+  5%|▍         | 78/1621 [00:26<08:07,  3.17it/s]PDB 6l8o, skipped.
+  5%|▍         | 79/1621 [00:27<10:33,  2.43it/s]PDB 8b2x, skipped.
+  5%|▍         | 80/1621 [00:27<08:20,  3.08it/s]PDB 7whm, skipped.
+  5%|▍         | 81/1621 [00:27<07:11,  3.57it/s]PDB 7k10, skipped.
+  5%|▌         | 82/1621 [00:28<08:59,  2.86it/s]PDB 6uqj, skipped.
+  5%|▌         | 83/1621 [00:28<07:30,  3.41it/s]PDB 3cih, skipped.
+  5%|▌         | 84/1621 [00:28<06:43,  3.80it/s]PDB 7z3j, skipped.
+  5%|▌         | 85/1621 [00:29<08:51,  2.89it/s]PDB 5mqr, skipped.
+  5%|▌         | 86/1621 [00:30<13:41,  1.87it/s]PDB 5iky, skipped.
+  5%|▌         | 87/1621 [00:30<12:08,  2.10it/s]PDB 5jjh, skipped.
+  5%|▌         | 88/1621 [00:30<11:53,  2.15it/s]PDB 4hhr, skipped.
+  5%|▌         | 89/1621 [00:31<11:28,  2.23it/s]PDB 7syf, skipped.
+  6%|▌         | 90/1621 [00:31<12:23,  2.06it/s]PDB 4d8m, skipped.
+  6%|▌         | 91/1621 [00:31<09:58,  2.56it/s]PDB 2ywg, skipped.
+PDB 5ca9, skipped.
+  6%|▌         | 93/1621 [00:32<06:41,  3.80it/s]PDB 6to1, skipped.
+  6%|▌         | 94/1621 [00:32<08:41,  2.93it/s]PDB 5mz9, skipped.
+  6%|▌         | 95/1621 [00:33<09:14,  2.75it/s]PDB 2zt7, skipped.
+  6%|▌         | 96/1621 [00:33<08:01,  3.17it/s]PDB 5n4a, skipped.
+  6%|▌         | 97/1621 [00:33<08:05,  3.14it/s]PDB 4cw4, skipped.
+  6%|▌         | 98/1621 [00:34<10:21,  2.45it/s]PDB 6jxc, skipped.
+  6%|▌         | 99/1621 [00:34<11:35,  2.19it/s]PDB 4rdr, skipped.
+  6%|▌         | 100/1621 [00:35<09:33,  2.65it/s]PDB 4fgm, skipped.
+  6%|▌         | 101/1621 [00:35<08:58,  2.82it/s]PDB 7bll, skipped.
+  6%|▋         | 102/1621 [00:36<11:03,  2.29it/s]PDB 7e9y, skipped.
+  6%|▋         | 103/1621 [00:36<09:41,  2.61it/s]PDB 3b43, skipped.
+  6%|▋         | 104/1621 [00:36<09:09,  2.76it/s]PDB 1w6j, skipped.
+  6%|▋         | 105/1621 [00:37<09:46,  2.58it/s]PDB 4uxv, skipped.
+PDB 3ii1, skipped.
+  7%|▋         | 107/1621 [00:37<08:21,  3.02it/s]PDB 6ptm, skipped.
+  7%|▋         | 108/1621 [00:37<08:10,  3.08it/s]PDB 3vmn, skipped.
+  7%|▋         | 109/1621 [00:38<08:01,  3.14it/s]PDB 1ut9, skipped.
+  7%|▋         | 110/1621 [00:38<07:41,  3.27it/s]PDB 6tpn, skipped.
+  7%|▋         | 111/1621 [00:38<06:20,  3.96it/s]PDB 5vbg, skipped.
+  7%|▋         | 112/1621 [00:38<06:37,  3.80it/s]PDB 5j6q, skipped.
+  7%|▋         | 113/1621 [00:39<10:36,  2.37it/s]PDB 5ndd, skipped.
+PDB 1p49, skipped.
+  7%|▋         | 115/1621 [00:39<06:47,  3.70it/s]PDB 5kca, skipped.
+PDB 7rb4, skipped.
+  7%|▋         | 117/1621 [00:40<06:00,  4.17it/s]PDB 3f83, skipped.
+  7%|▋         | 118/1621 [00:40<07:14,  3.46it/s]PDB 1idu, skipped.
+  7%|▋         | 119/1621 [00:40<06:43,  3.72it/s]PDB 3b3r, skipped.
+  7%|▋         | 120/1621 [00:41<10:09,  2.46it/s]PDB 4iuw, skipped.
+  7%|▋         | 121/1621 [00:41<09:03,  2.76it/s]PDB 2yfr, skipped.
+  8%|▊         | 122/1621 [00:42<11:11,  2.23it/s]PDB 3j9d, skipped.
+PDB 3ujz, skipped.
+  8%|▊         | 124/1621 [00:42<07:49,  3.19it/s]PDB 5wgr, skipped.
+  8%|▊         | 125/1621 [00:43<09:12,  2.71it/s]PDB 7b9p, skipped.
+  8%|▊         | 126/1621 [00:43<08:54,  2.80it/s]PDB 3au2, skipped.
+  8%|▊         | 127/1621 [00:44<10:33,  2.36it/s]PDB 4yim, skipped.
+  8%|▊         | 128/1621 [00:44<10:42,  2.32it/s]PDB 7oxv, skipped.
+  8%|▊         | 129/1621 [00:45<09:18,  2.67it/s]PDB 1z1w, skipped.
+  8%|▊         | 130/1621 [00:45<08:36,  2.89it/s]PDB 1e39, skipped.
+  8%|▊         | 131/1621 [00:45<09:03,  2.74it/s]PDB 6riw, skipped.
+  8%|▊         | 132/1621 [00:46<08:29,  2.92it/s]PDB 4elj, skipped.
+  8%|▊         | 133/1621 [00:46<09:23,  2.64it/s]PDB 3i3l, skipped.
+  8%|▊         | 134/1621 [00:46<07:28,  3.32it/s]PDB 6m76, skipped.
+  8%|▊         | 135/1621 [00:47<09:13,  2.69it/s]PDB 3nlc, skipped.
+  8%|▊         | 136/1621 [00:47<08:16,  2.99it/s]PDB 3viu, skipped.
+  8%|▊         | 137/1621 [00:47<07:30,  3.29it/s]PDB 5m1i, skipped.
+  9%|▊         | 138/1621 [00:48<09:50,  2.51it/s]PDB 3ig5, skipped.
+  9%|▊         | 139/1621 [00:48<08:36,  2.87it/s]PDB 6ici, skipped.
+  9%|▊         | 140/1621 [00:48<06:52,  3.59it/s]PDB 5ayk, skipped.
+  9%|▊         | 141/1621 [00:48<06:27,  3.82it/s]PDB 7nek, skipped.
+  9%|▉         | 142/1621 [00:48<05:16,  4.68it/s]PDB 7s8u, skipped.
+PDB 5j7t, skipped.
+  9%|▉         | 144/1621 [00:49<07:19,  3.36it/s]PDB 2yk0, skipped.
+PDB 4fo0, skipped.
+  9%|▉         | 146/1621 [00:49<05:07,  4.80it/s]PDB 7mi8, skipped.
+  9%|▉         | 147/1621 [00:50<05:08,  4.78it/s]PDB 6u4b, skipped.
+  9%|▉         | 148/1621 [00:50<04:40,  5.25it/s]PDB 7s7u, skipped.
+  9%|▉         | 149/1621 [00:50<06:07,  4.01it/s]PDB 7o7g, skipped.
+  9%|▉         | 150/1621 [00:51<06:42,  3.66it/s]PDB 1nkg, skipped.
+  9%|▉         | 151/1621 [00:51<06:15,  3.91it/s]PDB 6sl2, skipped.
+  9%|▉         | 152/1621 [00:51<05:21,  4.57it/s]PDB 7mqj, skipped.
+  9%|▉         | 153/1621 [00:51<05:34,  4.38it/s]PDB 1gju, skipped.
+ 10%|▉         | 154/1621 [00:51<04:53,  4.99it/s]PDB 1e1d, skipped.
+ 10%|▉         | 155/1621 [00:52<07:35,  3.22it/s]PDB 4ykn, skipped.
+ 10%|▉         | 156/1621 [00:52<08:12,  2.97it/s]PDB 2wjy, skipped.
+ 10%|▉         | 157/1621 [00:52<06:55,  3.52it/s]PDB 1sli, skipped.
+ 10%|▉         | 158/1621 [00:53<08:42,  2.80it/s]PDB 3ucp, skipped.
+ 10%|▉         | 159/1621 [00:54<11:58,  2.03it/s]PDB 5jov, skipped.
+ 10%|▉         | 160/1621 [00:55<15:27,  1.58it/s]PDB 8ebf, skipped.
+ 10%|▉         | 161/1621 [00:55<11:46,  2.07it/s]PDB 1qte, skipped.
+ 10%|▉         | 162/1621 [00:56<14:35,  1.67it/s]PDB 5gnc, skipped.
+PDB 1yiq, skipped.
+ 10%|█         | 164/1621 [00:56<09:23,  2.58it/s]PDB 1x1n, skipped.
+ 10%|█         | 165/1621 [00:56<08:20,  2.91it/s]PDB 1eut, skipped.
+PDB 3s1s, skipped.
+ 10%|█         | 167/1621 [00:57<09:10,  2.64it/s]PDB 1iq0, skipped.
+ 10%|█         | 168/1621 [00:57<07:43,  3.13it/s]PDB 6sno, skipped.
+PDB 5w5p, skipped.
+ 10%|█         | 170/1621 [00:57<05:45,  4.20it/s]PDB 2x0s, skipped.
+ 11%|█         | 171/1621 [00:58<05:41,  4.24it/s]PDB 7xgr, skipped.
+ 11%|█         | 172/1621 [00:58<07:01,  3.44it/s]PDB 6stx, skipped.
+ 11%|█         | 173/1621 [00:58<06:10,  3.90it/s]PDB 1ei5, skipped.
+ 11%|█         | 174/1621 [00:58<05:18,  4.54it/s]PDB 7pq5, skipped.
+PDB 6j72, skipped.
+ 11%|█         | 176/1621 [00:59<04:21,  5.52it/s]PDB 4ak1, skipped.
+ 11%|█         | 177/1621 [00:59<06:23,  3.76it/s]PDB 5ul2, skipped.
+ 11%|█         | 178/1621 [00:59<05:36,  4.29it/s]PDB 5vyl, skipped.
+PDB 4epa, skipped.
+ 11%|█         | 180/1621 [00:59<03:48,  6.30it/s]PDB 5wwn, skipped.
+PDB 4ut1, skipped.
+ 11%|█         | 182/1621 [01:00<03:09,  7.60it/s]PDB 4v2x, skipped.
+PDB 6ekv, skipped.
+ 11%|█▏        | 184/1621 [01:00<05:23,  4.44it/s]PDB 3edy, skipped.
+ 11%|█▏        | 185/1621 [01:00<04:49,  4.96it/s]PDB 7phy, skipped.
+ 11%|█▏        | 186/1621 [01:01<04:53,  4.89it/s]PDB 4a7z, skipped.
+ 12%|█▏        | 187/1621 [01:01<05:40,  4.22it/s]PDB 7w6b, skipped.
+ 12%|█▏        | 188/1621 [01:02<07:41,  3.10it/s]PDB 1z45, skipped.
+ 12%|█▏        | 189/1621 [01:02<08:48,  2.71it/s]PDB 4f7z, skipped.
+ 12%|█▏        | 190/1621 [01:02<08:57,  2.66it/s]PDB 5h3k, skipped.
+ 12%|█▏        | 191/1621 [01:03<07:31,  3.17it/s]PDB 7jfs, skipped.
+PDB 5ak1, skipped.
+ 12%|█▏        | 193/1621 [01:03<07:43,  3.08it/s]PDB 3jsz, skipped.
+ 12%|█▏        | 194/1621 [01:03<06:56,  3.43it/s]PDB 7rep, skipped.
+ 12%|█▏        | 195/1621 [01:04<06:02,  3.93it/s]PDB 3oh0, skipped.
+ 12%|█▏        | 196/1621 [01:04<05:30,  4.31it/s]PDB 3cfo, skipped.
+ 12%|█▏        | 197/1621 [01:04<05:10,  4.59it/s]PDB 6d6y, skipped.
+ 12%|█▏        | 198/1621 [01:04<04:28,  5.29it/s]PDB 5yu7, skipped.
+ 12%|█▏        | 199/1621 [01:05<07:43,  3.07it/s]PDB 5isw, skipped.
+ 12%|█▏        | 200/1621 [01:05<08:05,  2.93it/s]PDB 3w5m, skipped.
+ 12%|█▏        | 201/1621 [01:06<09:05,  2.60it/s]PDB 4lya, skipped.
+PDB 4wbd, skipped.
+ 13%|█▎        | 203/1621 [01:06<08:12,  2.88it/s]PDB 5ejr, skipped.
+ 13%|█▎        | 204/1621 [01:06<07:02,  3.36it/s]PDB 1os1, skipped.
+ 13%|█▎        | 205/1621 [01:07<06:01,  3.92it/s]PDB 2e28, skipped.
+PDB 5kdv, skipped.
+ 13%|█▎        | 207/1621 [01:07<06:47,  3.47it/s]PDB 3ps5, skipped.
+PDB 2w3c, skipped.
+ 13%|█▎        | 209/1621 [01:08<06:28,  3.64it/s]PDB 3pc3, skipped.
+ 13%|█▎        | 210/1621 [01:08<07:29,  3.14it/s]PDB 6k9k, skipped.
+ 13%|█▎        | 211/1621 [01:08<06:58,  3.37it/s]PDB 4a9v, skipped.
+ 13%|█▎        | 212/1621 [01:09<08:50,  2.66it/s]PDB 4r4x, skipped.
+ 13%|█▎        | 213/1621 [01:09<07:23,  3.17it/s]PDB 4fgv, skipped.
+ 13%|█▎        | 214/1621 [01:09<06:40,  3.51it/s]PDB 2vca, skipped.
+ 13%|█▎        | 215/1621 [01:10<07:31,  3.12it/s]PDB 7ptx, skipped.
+ 13%|█▎        | 216/1621 [01:10<08:56,  2.62it/s]PDB 4gzk, skipped.
+ 13%|█▎        | 217/1621 [01:11<10:46,  2.17it/s]PDB 3oml, skipped.
+ 13%|█▎        | 218/1621 [01:11<08:37,  2.71it/s]PDB 5awo, skipped.
+ 14%|█▎        | 219/1621 [01:11<07:55,  2.95it/s]PDB 1wxr, skipped.
+ 14%|█▎        | 220/1621 [01:12<07:31,  3.10it/s]PDB 1nr0, skipped.
+ 14%|█▎        | 221/1621 [01:12<09:27,  2.47it/s]PDB 2zuy, skipped.
+ 14%|█▎        | 222/1621 [01:13<10:44,  2.17it/s]PDB 2xpy, skipped.
+ 14%|█▍        | 223/1621 [01:13<09:23,  2.48it/s]PDB 4r0z, skipped.
+ 14%|█▍        | 224/1621 [01:13<07:29,  3.11it/s]PDB 2jhp, skipped.
+PDB 4wd1, skipped.
+ 14%|█▍        | 226/1621 [01:14<05:36,  4.15it/s]PDB 3crv, skipped.
+ 14%|█▍        | 227/1621 [01:14<07:16,  3.19it/s]PDB 6l30, skipped.
+ 14%|█▍        | 228/1621 [01:14<06:00,  3.86it/s]PDB 2q5t, skipped.
+ 14%|█▍        | 229/1621 [01:14<05:30,  4.22it/s]PDB 2vbk, skipped.
+ 14%|█▍        | 230/1621 [01:15<05:39,  4.10it/s]PDB 4ye6, skipped.
+ 14%|█▍        | 231/1621 [01:15<05:00,  4.63it/s]PDB 3lxu, skipped.
+ 14%|█▍        | 232/1621 [01:15<07:14,  3.20it/s]PDB 7si6, skipped.
+ 14%|█▍        | 233/1621 [01:15<06:12,  3.72it/s]PDB 5m11, skipped.
+ 14%|█▍        | 234/1621 [01:16<05:26,  4.25it/s]PDB 4jo0, skipped.
+PDB 7s7g, skipped.
+ 15%|█▍        | 236/1621 [01:16<06:36,  3.49it/s]PDB 5hm3, skipped.
+ 15%|█▍        | 237/1621 [01:17<06:23,  3.61it/s]PDB 4fyg, skipped.
+ 15%|█▍        | 238/1621 [01:17<06:23,  3.60it/s]PDB 7p04, skipped.
+ 15%|█▍        | 239/1621 [01:18<09:09,  2.51it/s]PDB 3wrg, skipped.
+ 15%|█▍        | 240/1621 [01:18<07:32,  3.05it/s]PDB 6xr1, skipped.
+ 15%|█▍        | 241/1621 [01:18<06:26,  3.57it/s]PDB 4d8o, skipped.
+ 15%|█▍        | 242/1621 [01:18<06:19,  3.63it/s]PDB 5kd2, skipped.
+ 15%|█▍        | 243/1621 [01:19<07:02,  3.26it/s]PDB 4ccz, skipped.
+ 15%|█▌        | 244/1621 [01:19<06:34,  3.49it/s]PDB 4oge, skipped.
+ 15%|█▌        | 245/1621 [01:20<10:01,  2.29it/s]PDB 1m9s, skipped.
+PDB 3h1t, skipped.
+ 15%|█▌        | 247/1621 [01:20<06:30,  3.52it/s]PDB 4yj1, skipped.
+ 15%|█▌        | 248/1621 [01:20<06:19,  3.62it/s]PDB 3ksy, skipped.
+ 15%|█▌        | 249/1621 [01:20<05:31,  4.14it/s]PDB 4pj3, skipped.
+ 15%|█▌        | 250/1621 [01:21<11:03,  2.07it/s]PDB 6yhk, skipped.
+ 15%|█▌        | 251/1621 [01:22<11:03,  2.07it/s]PDB 2iny, skipped.
+ 16%|█▌        | 252/1621 [01:22<09:48,  2.33it/s]PDB 4cth, skipped.
+ 16%|█▌        | 253/1621 [01:23<11:27,  1.99it/s]PDB 6zmq, skipped.
+ 16%|█▌        | 254/1621 [01:23<08:56,  2.55it/s]PDB 8d6m, skipped.
+ 16%|█▌        | 255/1621 [01:23<08:41,  2.62it/s]PDB 4g33, skipped.
+ 16%|█▌        | 256/1621 [01:23<07:27,  3.05it/s]PDB 7obm, skipped.
+ 16%|█▌        | 257/1621 [01:24<06:04,  3.74it/s]PDB 3j9e, skipped.
+PDB 1m9i, skipped.
+ 16%|█▌        | 259/1621 [01:24<07:01,  3.23it/s]PDB 7rqs, skipped.
+ 16%|█▌        | 260/1621 [01:24<05:52,  3.86it/s]PDB 6dgv, skipped.
+PDB 6bbp, skipped.
+ 16%|█▌        | 262/1621 [01:25<03:59,  5.67it/s]PDB 7esg, skipped.
+PDB 6ec8, skipped.
+ 16%|█▋        | 264/1621 [01:25<04:56,  4.58it/s]PDB 3bdl, skipped.
+ 16%|█▋        | 265/1621 [01:25<04:52,  4.63it/s]PDB 4aur, skipped.
+PDB 7vgm, skipped.
+ 16%|█▋        | 267/1621 [01:26<04:37,  4.89it/s]PDB 3ps9, skipped.
+ 17%|█▋        | 268/1621 [01:26<05:21,  4.21it/s]PDB 6s9u, skipped.
+ 17%|█▋        | 269/1621 [01:27<07:00,  3.21it/s]PDB 2wop, skipped.
+ 17%|█▋        | 270/1621 [01:27<07:06,  3.17it/s]PDB 1no3, skipped.
+ 17%|█▋        | 271/1621 [01:27<08:09,  2.76it/s]PDB 6cc4, skipped.
+PDB 7sgg, skipped.
+ 17%|█▋        | 273/1621 [01:28<05:36,  4.01it/s]PDB 2ags, skipped.
+ 17%|█▋        | 274/1621 [01:28<05:43,  3.92it/s]PDB 6mlt, skipped.
+ 17%|█▋        | 275/1621 [01:29<08:05,  2.77it/s]PDB 7d9b, skipped.
+ 17%|█▋        | 276/1621 [01:29<07:21,  3.05it/s]PDB 6sl1, skipped.
+ 17%|█▋        | 277/1621 [01:29<09:23,  2.39it/s]PDB 7ask, skipped.
+ 17%|█▋        | 278/1621 [01:30<07:49,  2.86it/s]PDB 7wo9, skipped.
+ 17%|█▋        | 279/1621 [01:30<07:10,  3.12it/s]PDB 5zl9, skipped.
+ 17%|█▋        | 280/1621 [01:30<06:41,  3.34it/s]PDB 2ols, skipped.
+ 17%|█▋        | 281/1621 [01:31<09:48,  2.28it/s]PDB 4ba0, skipped.
+ 17%|█▋        | 282/1621 [01:32<11:40,  1.91it/s]PDB 4xpq, skipped.
+ 17%|█▋        | 283/1621 [01:32<09:38,  2.31it/s]PDB 5hv1, skipped.
+PDB 2ze9, skipped.
+ 18%|█▊        | 285/1621 [01:32<06:18,  3.53it/s]PDB 6eud, skipped.
+ 18%|█▊        | 286/1621 [01:33<08:14,  2.70it/s]PDB 4bqh, skipped.
+ 18%|█▊        | 287/1621 [01:33<06:55,  3.21it/s]PDB 1kmo, skipped.
+ 18%|█▊        | 288/1621 [01:33<06:06,  3.64it/s]PDB 7a9j, skipped.
+ 18%|█▊        | 289/1621 [01:33<05:23,  4.11it/s]PDB 1zvr, skipped.
+ 18%|█▊        | 290/1621 [01:33<04:43,  4.70it/s]PDB 4zu9, skipped.
+ 18%|█▊        | 291/1621 [01:33<04:03,  5.45it/s]PDB 1r6v, skipped.
+ 18%|█▊        | 292/1621 [01:34<06:35,  3.36it/s]PDB 4ecn, skipped.
+ 18%|█▊        | 293/1621 [01:34<06:59,  3.17it/s]PDB 7db5, skipped.
+ 18%|█▊        | 294/1621 [01:34<05:46,  3.83it/s]PDB 7f47, skipped.
+ 18%|█▊        | 295/1621 [01:35<04:43,  4.68it/s]PDB 5xgb, skipped.
+ 18%|█▊        | 296/1621 [01:35<04:27,  4.95it/s]PDB 4uj6, skipped.
+ 18%|█▊        | 297/1621 [01:35<05:55,  3.73it/s]PDB 5zib, skipped.
+ 18%|█▊        | 298/1621 [01:35<05:01,  4.39it/s]PDB 1ug9, skipped.
+ 18%|█▊        | 299/1621 [01:36<05:40,  3.88it/s]PDB 6eg2, skipped.
+PDB 6r9t, skipped.
+ 19%|█▊        | 301/1621 [01:36<06:56,  3.17it/s]PDB 6wm6, skipped.
+ 19%|█▊        | 302/1621 [01:37<06:53,  3.19it/s]PDB 5dzt, skipped.
+ 19%|█▊        | 303/1621 [01:37<05:59,  3.67it/s]PDB 1yt8, skipped.
+ 19%|█▉        | 304/1621 [01:37<06:28,  3.39it/s]PDB 5f15, skipped.
+ 19%|█▉        | 305/1621 [01:38<08:10,  2.69it/s]PDB 5k8g, skipped.
+ 19%|█▉        | 306/1621 [01:38<07:11,  3.05it/s]PDB 1xez, skipped.
+ 19%|█▉        | 307/1621 [01:38<07:05,  3.09it/s]PDB 4rtd, skipped.
+ 19%|█▉        | 308/1621 [01:39<07:46,  2.82it/s]PDB 2b3x, skipped.
+ 19%|█▉        | 309/1621 [01:39<06:35,  3.32it/s]PDB 3kt4, skipped.
+ 19%|█▉        | 310/1621 [01:39<07:24,  2.95it/s]PDB 3sae, skipped.
+ 19%|█▉        | 311/1621 [01:40<08:34,  2.55it/s]PDB 6h6g, skipped.
+ 19%|█▉        | 312/1621 [01:41<12:12,  1.79it/s]PDB 2nyf, skipped.
+PDB 5xbj, skipped.
+ 19%|█▉        | 314/1621 [01:41<07:54,  2.75it/s]PDB 2e7z, skipped.
+ 19%|█▉        | 315/1621 [01:42<08:54,  2.44it/s]PDB 2qyu, skipped.
+ 19%|█▉        | 316/1621 [01:42<08:31,  2.55it/s]PDB 6n8e, skipped.
+ 20%|█▉        | 317/1621 [01:43<11:23,  1.91it/s]PDB 5cwa, skipped.
+PDB 7adm, skipped.
+ 20%|█▉        | 319/1621 [01:43<07:25,  2.92it/s]PDB 7b6h, skipped.
+ 20%|█▉        | 320/1621 [01:44<08:09,  2.66it/s]PDB 4zrx, skipped.
+ 20%|█▉        | 321/1621 [01:44<07:20,  2.95it/s]PDB 3igy, skipped.
+ 20%|█▉        | 322/1621 [01:44<06:37,  3.27it/s]PDB 6xux, skipped.
+ 20%|█▉        | 323/1621 [01:44<06:27,  3.35it/s]PDB 3uek, skipped.
+ 20%|█▉        | 324/1621 [01:44<05:30,  3.92it/s]PDB 1a6c, skipped.
+PDB 1rqg, skipped.
+ 20%|██        | 326/1621 [01:45<05:55,  3.65it/s]PDB 4jcl, skipped.
+ 20%|██        | 327/1621 [01:45<05:45,  3.75it/s]PDB 5jxl, skipped.
+PDB 3bzk, skipped.
+ 20%|██        | 329/1621 [01:46<04:22,  4.93it/s]PDB 4xhp, skipped.
+ 20%|██        | 330/1621 [01:46<04:03,  5.31it/s]PDB 8cxo, skipped.
+ 20%|██        | 331/1621 [01:46<05:44,  3.74it/s]PDB 5y6r, skipped.
+ 20%|██        | 332/1621 [01:46<04:49,  4.45it/s]PDB 6cpu, skipped.
+PDB 4hl8, skipped.
+ 21%|██        | 334/1621 [01:46<03:30,  6.11it/s]PDB 4fnv, skipped.
+ 21%|██        | 335/1621 [01:47<04:40,  4.58it/s]PDB 7o3d, skipped.
+ 21%|██        | 336/1621 [01:48<07:10,  2.99it/s]PDB 1pj6, skipped.
+ 21%|██        | 337/1621 [01:48<09:42,  2.20it/s]PDB 1b90, skipped.
+ 21%|██        | 338/1621 [01:49<08:17,  2.58it/s]PDB 3j3i, skipped.
+PDB 1cii, skipped.
+ 21%|██        | 340/1621 [01:49<07:02,  3.04it/s]PDB 1v5e, skipped.
+ 21%|██        | 341/1621 [01:49<07:29,  2.85it/s]PDB 3vuo, skipped.
+ 21%|██        | 342/1621 [01:50<06:08,  3.47it/s]PDB 1hn0, skipped.
+ 21%|██        | 343/1621 [01:51<10:51,  1.96it/s]PDB 7vud, skipped.
+ 21%|██        | 344/1621 [01:51<08:31,  2.50it/s]PDB 5mss, skipped.
+ 21%|██▏       | 345/1621 [01:51<08:32,  2.49it/s]PDB 3wai, skipped.
+ 21%|██▏       | 346/1621 [01:52<08:37,  2.46it/s]PDB 4zlf, skipped.
+ 21%|██▏       | 347/1621 [01:52<08:20,  2.54it/s]PDB 3cpe, skipped.
+ 21%|██▏       | 348/1621 [01:53<09:27,  2.24it/s]PDB 4fl2, skipped.
+ 22%|██▏       | 349/1621 [01:53<07:17,  2.91it/s]PDB 6qzh, skipped.
+ 22%|██▏       | 350/1621 [01:53<05:54,  3.58it/s]PDB 7nnh, skipped.
+PDB 4qo5, skipped.
+ 22%|██▏       | 352/1621 [01:53<04:30,  4.69it/s]PDB 4c00, skipped.
+ 22%|██▏       | 353/1621 [01:53<04:35,  4.60it/s]PDB 3vsm, skipped.
+ 22%|██▏       | 354/1621 [01:54<06:52,  3.07it/s]PDB 7kgm, skipped.
+PDB 2c9k, skipped.
+ 22%|██▏       | 356/1621 [01:54<04:44,  4.45it/s]PDB 4s2a, skipped.
+PDB 3cuz, skipped.
+ 22%|██▏       | 358/1621 [01:54<04:10,  5.04it/s]PDB 4txg, skipped.
+ 22%|██▏       | 359/1621 [01:55<06:40,  3.15it/s]PDB 2a3l, skipped.
+PDB 4q2d, skipped.
+ 22%|██▏       | 361/1621 [01:55<05:23,  3.89it/s]PDB 6yxa, skipped.
+ 22%|██▏       | 362/1621 [01:56<04:45,  4.42it/s]PDB 5ho2, skipped.
+ 22%|██▏       | 363/1621 [01:56<05:32,  3.79it/s]PDB 4uw0, skipped.
+ 22%|██▏       | 364/1621 [01:56<05:25,  3.86it/s]PDB 6ofs, skipped.
+ 23%|██▎       | 365/1621 [01:57<07:06,  2.95it/s]PDB 5ek8, skipped.
+ 23%|██▎       | 366/1621 [01:57<05:57,  3.51it/s]PDB 2zzq, Chain A, 483 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.24089	101.85 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.38019	36.76 s
+Mean (Ca) plddt: 53.7935 
+
+Saving data...
+
+ 23%|██▎       | 367/1621 [05:13<19:13:02, 55.17s/it]PDB 2ot2, Chain A, 90 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.15543	4.06 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.21991	1.82 s
+Mean (Ca) plddt: 74.5733 
+
+Saving data...
+
+ 23%|██▎       | 368/1621 [05:21<14:33:43, 41.84s/it]PDB 2mof, Chain A, 42 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08626	2.41 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.08602	2.34 s
+Mean (Ca) plddt: 76.3314 
+
+Saving data...
+
+ 23%|██▎       | 369/1621 [05:27<10:51:33, 31.22s/it]PDB 2kjx, Chain A, 65 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11273	3.03 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18754	1.89 s
+Mean (Ca) plddt: 78.9322 
+
+Saving data...
+
+ 23%|██▎       | 370/1621 [05:33<8:21:57, 24.08s/it] PDB 2hf6, Chain A, 149 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09832	10.02 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17131	2.86 s
+Mean (Ca) plddt: 88.6329 
+
+Saving data...
+
+ 23%|██▎       | 371/1621 [05:54<8:00:14, 23.05s/it]PDB 4rya, Chain A, 417 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06840	74.50 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18543	24.11 s
+Mean (Ca) plddt: 88.4771 
+
+Saving data...
+
+ 23%|██▎       | 372/1621 [08:20<20:40:08, 59.57s/it]PDB 3c8m, Chain A, 320 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07759	40.80 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18503	12.15 s
+Mean (Ca) plddt: 87.9173 
+
+Saving data...
+
+ 23%|██▎       | 373/1621 [09:40<22:43:21, 65.55s/it]PDB 2m9h, Chain A, 106 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.20380	5.14 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23469	2.01 s
+Mean (Ca) plddt: 65.6553 
+
+Saving data...
+
+ 23%|██▎       | 374/1621 [09:51<17:07:02, 49.42s/it]PDB 4dnh, Chain A, 375 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12685	58.69 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23657	18.87 s
+Mean (Ca) plddt: 77.6507 
+
+Saving data...
+
+ 23%|██▎       | 375/1621 [11:48<24:02:08, 69.45s/it]PDB 7ava, Chain A, 138 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11191	10.05 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.19606	2.55 s
+Mean (Ca) plddt: 85.9022 
+
+Saving data...
+
+ 23%|██▎       | 376/1621 [12:06<18:43:42, 54.15s/it]PDB 6f61, Chain A, 31 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08811	2.46 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18059	2.41 s
+Mean (Ca) plddt: 91.3012 
+
+Saving data...
+
+ 23%|██▎       | 377/1621 [12:12<13:43:50, 39.73s/it]PDB 6qb2, Chain A, 95 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.20238	5.40 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.25348	1.89 s
+Mean (Ca) plddt: 77.2205 
+
+Saving data...
+
+ 23%|██▎       | 378/1621 [12:22<10:37:26, 30.77s/it]PDB 6whp, Chain A, 428 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11294	82.89 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20108	25.45 s
+Mean (Ca) plddt: 87.7544 
+
+Saving data...
+
+ 23%|██▎       | 379/1621 [14:59<23:42:40, 68.73s/it]PDB 7nur, skipped.
+ 23%|██▎       | 380/1621 [15:00<16:36:49, 48.19s/it]PDB 3klb, Chain A, 160 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07450	10.01 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18226	3.14 s
+Mean (Ca) plddt: 89.0283 
+
+Saving data...
+
+ 24%|██▎       | 381/1621 [15:19<13:39:27, 39.65s/it]PDB 7fev, Chain A, 443 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09782	83.83 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20981	28.23 s
+Mean (Ca) plddt: 87.0326 
+
+Saving data...
+
+ 24%|██▎       | 382/1621 [18:04<26:34:54, 77.24s/it]PDB 2khd, Chain A, 108 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13614	5.52 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.25278	2.29 s
+Mean (Ca) plddt: 69.2567 
+
+Saving data...
+
+ 24%|██▎       | 383/1621 [18:17<19:51:45, 57.76s/it]PDB 1zfu, Chain A, 40 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.20635	2.44 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.25573	1.84 s
+Mean (Ca) plddt: 80.7216 
+
+Saving data...
+
+ 24%|██▎       | 384/1621 [18:21<14:23:32, 41.89s/it]PDB 2oaj, skipped.
+ 24%|██▍       | 385/1621 [18:22<10:06:41, 29.45s/it]PDB 1w8i, Chain A, 153 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05392	9.23 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.13865	2.72 s
+Mean (Ca) plddt: 89.1832 
+
+Saving data...
+
+ 24%|██▍       | 386/1621 [18:40<8:57:54, 26.13s/it] PDB 6wgm, Chain A, 304 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05068	33.87 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16139	10.95 s
+Mean (Ca) plddt: 92.5952 
+
+Saving data...
+
+ 24%|██▍       | 387/1621 [19:47<13:10:59, 38.46s/it]PDB 2f3i, Chain A, 150 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.24394	9.22 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.31871	2.70 s
+Mean (Ca) plddt: 74.1161 
+
+Saving data...
+
+ 24%|██▍       | 388/1621 [20:06<11:09:59, 32.60s/it]PDB 6fvi, Chain A, 139 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11308	8.68 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.25431	2.54 s
+Mean (Ca) plddt: 79.6715 
+
+Saving data...
+
+ 24%|██▍       | 389/1621 [20:23<9:32:11, 27.87s/it] PDB 2ee7, Chain A, 127 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10594	6.39 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17074	2.10 s
+Mean (Ca) plddt: 85.5800 
+
+Saving data...
+
+ 24%|██▍       | 390/1621 [20:37<8:07:00, 23.74s/it]PDB 2ruh, Chain A, 131 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10896	7.30 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.19185	2.22 s
+Mean (Ca) plddt: 73.5871 
+
+Saving data...
+
+ 24%|██▍       | 391/1621 [20:53<7:14:42, 21.21s/it]PDB 1x82, Chain A, 185 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09882	14.09 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22373	3.57 s
+Mean (Ca) plddt: 89.0980 
+
+Saving data...
+
+ 24%|██▍       | 392/1621 [21:21<7:58:16, 23.35s/it]PDB 1wep, Chain A, 79 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10688	3.90 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17551	1.95 s
+Mean (Ca) plddt: 84.2778 
+
+Saving data...
+
+ 24%|██▍       | 393/1621 [21:30<6:28:25, 18.98s/it]PDB 6j7n, Chain A, 290 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07002	33.96 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18420	10.04 s
+Mean (Ca) plddt: 90.3607 
+
+Saving data...
+
+ 24%|██▍       | 394/1621 [22:36<11:18:33, 33.18s/it]PDB 3oao, Chain A, 136 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05607	9.67 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.09824	2.86 s
+Mean (Ca) plddt: 87.3278 
+
+Saving data...
+
+ 24%|██▍       | 395/1621 [22:54<9:43:28, 28.56s/it] PDB 5izb, Chain A, 89 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10510	4.88 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20333	1.96 s
+Mean (Ca) plddt: 75.9182 
+
+Saving data...
+
+ 24%|██▍       | 396/1621 [23:04<7:53:14, 23.18s/it]PDB 1doi, Chain A, 128 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07557	6.54 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18900	2.32 s
+Mean (Ca) plddt: 92.1498 
+
+Saving data...
+
+ 24%|██▍       | 397/1621 [23:17<6:47:21, 19.97s/it]PDB 3hur, Chain A, 384 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12868	60.33 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23704	19.92 s
+Mean (Ca) plddt: 88.8958 
+
+Saving data...
+
+ 25%|██▍       | 398/1621 [25:16<16:50:40, 49.58s/it]PDB 6j7k, Chain A, 381 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08622	64.42 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17659	19.89 s
+Mean (Ca) plddt: 86.3650 
+
+Saving data...
+
+ 25%|██▍       | 399/1621 [27:24<24:48:31, 73.09s/it]PDB 2nd2, Chain A, 44 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07859	2.47 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.14012	1.96 s
+Mean (Ca) plddt: 71.7283 
+
+Saving data...
+
+ 25%|██▍       | 400/1621 [27:29<17:55:15, 52.84s/it]PDB 7mi6, skipped.
+ 25%|██▍       | 401/1621 [27:29<12:34:06, 37.09s/it]PDB 2xk0, Chain A, 69 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12072	3.35 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18118	2.31 s
+Mean (Ca) plddt: 80.4249 
+
+Saving data...
+
+ 25%|██▍       | 402/1621 [27:36<9:30:15, 28.07s/it] PDB 7auk, Chain A, 168 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08052	12.38 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20085	3.32 s
+Mean (Ca) plddt: 84.8350 
+
+Saving data...
+
+ 25%|██▍       | 403/1621 [28:00<9:02:48, 26.74s/it]PDB 6i93, Chain A, 285 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05672	35.66 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.14071	9.46 s
+Mean (Ca) plddt: 88.6591 
+
+Saving data...
+
+ 25%|██▍       | 404/1621 [29:09<13:19:32, 39.42s/it]PDB 2iqc, Chain A, 173 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05055	11.67 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.12003	3.27 s
+Mean (Ca) plddt: 88.4567 
+
+Saving data...
+
+ 25%|██▍       | 405/1621 [29:32<11:38:34, 34.47s/it]PDB 6m4c, Chain A, 98 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06257	5.26 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16807	1.93 s
+Mean (Ca) plddt: 88.9204 
+
+Saving data...
+
+ 25%|██▌       | 406/1621 [29:42<9:06:01, 26.96s/it] PDB 3tfm, Chain A, 208 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11311	16.70 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.21014	4.18 s
+Mean (Ca) plddt: 82.0526 
+
+Saving data...
+
+ 25%|██▌       | 407/1621 [30:15<9:48:06, 29.07s/it]PDB 1ghh, Chain A, 81 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07776	4.49 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17093	1.82 s
+Mean (Ca) plddt: 87.5197 
+
+Saving data...
+
+ 25%|██▌       | 408/1621 [30:26<7:52:15, 23.36s/it]PDB 5odd, Chain A, 92 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11877	4.87 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17575	1.92 s
+Mean (Ca) plddt: 75.6207 
+
+Saving data...
+
+ 25%|██▌       | 409/1621 [30:35<6:30:25, 19.33s/it]PDB 2i0m, Chain A, 207 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06050	16.03 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.12250	4.59 s
+Mean (Ca) plddt: 90.8794 
+
+Saving data...
+
+ 25%|██▌       | 410/1621 [31:08<7:52:33, 23.41s/it]PDB 3igh, Chain X, 483 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05843	104.47 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16815	36.79 s
+Mean (Ca) plddt: 92.0186 
+
+Saving data...
+
+ 25%|██▌       | 411/1621 [34:34<26:15:40, 78.13s/it]PDB 7d8k, Chain A, 68 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08977	3.74 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17126	1.96 s
+Mean (Ca) plddt: 77.1216 
+
+Saving data...
+
+ 25%|██▌       | 412/1621 [34:41<19:05:48, 56.86s/it]PDB 2g64, Chain A, 140 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.04882	7.65 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.15343	2.17 s
+Mean (Ca) plddt: 94.3438 
+
+Saving data...
+
+ 25%|██▌       | 413/1621 [34:58<14:58:47, 44.64s/it]PDB 1x1m, Chain A, 107 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.14853	5.40 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.26685	2.00 s
+Mean (Ca) plddt: 65.3852 
+
+Saving data...
+
+ 26%|██▌       | 414/1621 [35:09<11:40:20, 34.81s/it]PDB 2e8p, Chain A, 92 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09615	5.96 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16979	1.99 s
+Mean (Ca) plddt: 76.1236 
+
+Saving data...
+
+ 26%|██▌       | 415/1621 [35:21<9:17:24, 27.73s/it] PDB 2k25, Chain A, 103 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.23702	5.17 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.29304	2.65 s
+Mean (Ca) plddt: 77.0530 
+
+Saving data...
+
+ 26%|██▌       | 416/1621 [35:32<7:40:34, 22.93s/it]PDB 2dal, Chain A, 62 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09388	2.33 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.15646	2.12 s
+Mean (Ca) plddt: 79.1774 
+
+Saving data...
+
+ 26%|██▌       | 417/1621 [35:38<5:54:31, 17.67s/it]PDB 2aby, Chain A, 122 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.21811	7.34 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.29795	2.24 s
+Mean (Ca) plddt: 62.7888 
+
+Saving data...
+
+ 26%|██▌       | 418/1621 [35:54<5:43:22, 17.13s/it]PDB 1xov, Chain A, 315 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07554	39.39 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.19351	11.76 s
+Mean (Ca) plddt: 88.3561 
+
+Saving data...
+
+ 26%|██▌       | 419/1621 [37:12<11:49:51, 35.43s/it]PDB 2epx, Chain A, 47 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08723	2.82 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18476	2.33 s
+Mean (Ca) plddt: 64.6401 
+
+Saving data...
+
+ 26%|██▌       | 420/1621 [37:18<8:52:30, 26.60s/it] PDB 2i8e, Chain A, 86 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08772	3.83 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16922	1.68 s
+Mean (Ca) plddt: 91.6436 
+
+Saving data...
+
+ 26%|██▌       | 421/1621 [37:25<6:57:36, 20.88s/it]PDB 6nff, skipped.
+ 26%|██▌       | 422/1621 [37:27<4:59:19, 14.98s/it]PDB 7pq1, Chain A, 395 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07928	70.52 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16748	20.64 s
+Mean (Ca) plddt: 86.5469 
+
+Saving data...
+
+ 26%|██▌       | 423/1621 [39:44<17:11:22, 51.65s/it]PDB 6p7r, Chain A, 277 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12034	33.32 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.19910	8.98 s
+Mean (Ca) plddt: 84.5593 
+
+Saving data...
+
+ 26%|██▌       | 424/1621 [40:50<18:35:29, 55.91s/it]PDB 5aiw, Chain A, 128 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.14440	7.48 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18936	2.33 s
+Mean (Ca) plddt: 80.4078 
+
+Saving data...
+
+ 26%|██▌       | 425/1621 [41:05<14:35:11, 43.91s/it]PDB 6sy2, Chain A, 49 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13920	3.16 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.21495	2.23 s
+Mean (Ca) plddt: 81.2457 
+
+Saving data...
+
+ 26%|██▋       | 426/1621 [41:12<10:48:36, 32.57s/it]PDB 2p73, Chain A, 207 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07348	19.33 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17176	4.67 s
+Mean (Ca) plddt: 90.5528 
+
+Saving data...
+
+ 26%|██▋       | 427/1621 [41:49<11:17:51, 34.06s/it]PDB 4lun, Chain U, 311 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07212	41.41 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.13764	11.86 s
+Mean (Ca) plddt: 85.8758 
+
+Saving data...
+
+ 26%|██▋       | 428/1621 [43:12<16:06:19, 48.60s/it]PDB 4u77, Chain A, 121 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05435	6.37 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.13249	2.17 s
+Mean (Ca) plddt: 88.5366 
+
+Saving data...
+
+ 26%|██▋       | 429/1621 [43:25<12:33:03, 37.91s/it]PDB 7mqq, Chain A, 113 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.35287	5.87 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.47488	2.02 s
+Mean (Ca) plddt: 34.5046 
+
+Saving data...
+
+ 27%|██▋       | 430/1621 [43:36<9:56:30, 30.05s/it] PDB 3nzm, Chain A, 163 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10328	10.24 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23861	2.99 s
+Mean (Ca) plddt: 83.2150 
+
+Saving data...
+
+ 27%|██▋       | 431/1621 [43:57<8:59:34, 27.21s/it]PDB 4b9i, Chain A, 125 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.29513	7.06 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.44193	2.49 s
+Mean (Ca) plddt: 43.8213 
+
+Saving data...
+
+ 27%|██▋       | 432/1621 [44:11<7:40:09, 23.22s/it]PDB 4dvy, skipped.
+ 27%|██▋       | 433/1621 [44:11<5:22:36, 16.29s/it]PDB 5kiv, Chain A, 262 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08306	27.21 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16934	7.73 s
+Mean (Ca) plddt: 89.5861 
+
+Saving data...
+
+ 27%|██▋       | 434/1621 [45:08<9:25:22, 28.58s/it]PDB 5ipx, Chain A, 282 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.20229	32.28 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.30001	8.98 s
+Mean (Ca) plddt: 47.3047 
+
+Saving data...
+
+ 27%|██▋       | 435/1621 [46:12<12:54:02, 39.16s/it]PDB 1wir, Chain A, 121 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08359	6.86 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16719	1.85 s
+Mean (Ca) plddt: 77.2545 
+
+Saving data...
+
+ 27%|██▋       | 436/1621 [46:26<10:26:24, 31.72s/it]PDB 3g8y, Chain A, 380 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.17850	62.42 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.29820	19.09 s
+Mean (Ca) plddt: 66.0073 
+
+Saving data...
+
+ 27%|██▋       | 437/1621 [48:30<19:27:32, 59.17s/it]PDB 1c0l, Chain A, 363 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08270	54.32 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20285	16.90 s
+Mean (Ca) plddt: 87.2336 
+
+Saving data...
+
+ 27%|██▋       | 438/1621 [50:14<23:54:34, 72.76s/it]PDB 3czc, Chain A, 89 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08869	3.68 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18030	1.95 s
+Mean (Ca) plddt: 89.4192 
+
+Saving data...
+
+ 27%|██▋       | 439/1621 [50:21<17:25:46, 53.09s/it]PDB 3v46, Chain A, 160 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07880	10.97 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16814	2.60 s
+Mean (Ca) plddt: 89.7700 
+
+Saving data...
+
+ 27%|██▋       | 440/1621 [50:43<14:22:19, 43.81s/it]PDB 2pag, Chain A, 132 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06985	7.07 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16769	2.46 s
+Mean (Ca) plddt: 91.3451 
+
+Saving data...
+
+ 27%|██▋       | 441/1621 [50:58<11:29:37, 35.07s/it]PDB 2kji, Chain A, 50 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.15979	2.45 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22496	2.20 s
+Mean (Ca) plddt: 78.1361 
+
+Saving data...
+
+ 27%|██▋       | 442/1621 [51:04<8:34:26, 26.18s/it] PDB 5m1h, Chain A, 180 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12992	12.32 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.19242	3.74 s
+Mean (Ca) plddt: 72.7927 
+
+Saving data...
+
+ 27%|██▋       | 443/1621 [51:29<8:31:26, 26.05s/it]PDB 1jli, Chain A, 112 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.19481	6.20 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.29300	2.10 s
+Mean (Ca) plddt: 45.1673 
+
+Saving data...
+
+ 27%|██▋       | 444/1621 [51:42<7:10:28, 21.94s/it]PDB 5nth, skipped.
+PDB 5ore, Chain A, 261 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08039	25.27 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18692	7.27 s
+Mean (Ca) plddt: 92.7400 
+
+Saving data...
+
+ 28%|██▊       | 446/1621 [52:31<7:32:36, 23.11s/it]PDB 2g9g, Chain A, 189 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.29279	14.46 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.39292	4.20 s
+Mean (Ca) plddt: 53.8198 
+
+Saving data...
+
+ 28%|██▊       | 447/1621 [52:59<8:00:08, 24.54s/it]PDB 2a1x, Chain A, 253 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11195	27.68 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23581	6.98 s
+Mean (Ca) plddt: 82.5605 
+
+Saving data...
+
+ 28%|██▊       | 448/1621 [53:52<10:23:09, 31.88s/it]PDB 1vkw, Chain A, 213 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11176	19.79 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20624	4.98 s
+Mean (Ca) plddt: 84.6331 
+
+Saving data...
+
+ 28%|██▊       | 449/1621 [54:28<10:41:41, 32.85s/it]PDB 2cq9, Chain A, 130 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13060	7.19 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.19082	2.47 s
+Mean (Ca) plddt: 81.4627 
+
+Saving data...
+
+ 28%|██▊       | 450/1621 [54:43<9:07:01, 28.03s/it] PDB 3tu6, Chain A, 127 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05856	6.17 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.19589	2.41 s
+Mean (Ca) plddt: 94.4365 
+
+Saving data...
+
+ 28%|██▊       | 451/1621 [54:56<7:41:52, 23.69s/it]PDB 3l86, Chain A, 245 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06494	20.41 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18610	6.89 s
+Mean (Ca) plddt: 90.0551 
+
+Saving data...
+
+ 28%|██▊       | 452/1621 [55:35<9:10:24, 28.25s/it]PDB 2kkt, Chain A, 52 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10599	2.67 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.15061	2.13 s
+Mean (Ca) plddt: 81.9633 
+
+Saving data...
+
+ 28%|██▊       | 453/1621 [55:42<7:03:59, 21.78s/it]PDB 6ln0, Chain A, 425 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.14464	76.59 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.27379	25.98 s
+Mean (Ca) plddt: 69.2743 
+
+Saving data...
+
+ 28%|██▊       | 454/1621 [58:13<19:26:32, 59.98s/it]PDB 4y0l, Chain A, 80 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10502	3.83 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.25731	2.17 s
+Mean (Ca) plddt: 73.9684 
+
+Saving data...
+
+ 28%|██▊       | 455/1621 [58:20<14:23:04, 44.41s/it]PDB 1ufw, Chain A, 95 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13963	4.46 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23044	2.07 s
+Mean (Ca) plddt: 75.5656 
+
+Saving data...
+
+ 28%|██▊       | 456/1621 [58:29<10:58:08, 33.90s/it]PDB 7u37, Chain A, 77 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.20701	3.63 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23698	2.23 s
+Mean (Ca) plddt: 82.7642 
+
+Saving data...
+
+ 28%|██▊       | 457/1621 [58:38<8:28:33, 26.21s/it] PDB 4uw9, Chain A, 225 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06032	22.10 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16187	5.79 s
+Mean (Ca) plddt: 89.3274 
+
+Saving data...
+
+ 28%|██▊       | 458/1621 [59:19<9:54:25, 30.67s/it]PDB 2lbo, Chain A, 123 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.32487	6.81 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.44133	2.01 s
+Mean (Ca) plddt: 38.8355 
+
+Saving data...
+
+ 28%|██▊       | 459/1621 [59:32<8:13:16, 25.47s/it]PDB 7mi1, skipped.
+ 28%|██▊       | 460/1621 [59:33<5:52:43, 18.23s/it]PDB 1pu1, Chain A, 91 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10944	4.76 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16399	2.29 s
+Mean (Ca) plddt: 91.9985 
+
+Saving data...
+
+ 28%|██▊       | 461/1621 [59:44<5:08:03, 15.93s/it]PDB 1uec, Chain A, 177 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.17977	12.73 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.27386	3.34 s
+Mean (Ca) plddt: 69.3849 
+
+Saving data...
+
+ 29%|██▊       | 462/1621 [1:00:09<5:58:36, 18.57s/it]PDB 2pft, skipped.
+PDB 1wel, Chain A, 124 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10692	6.92 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20196	2.20 s
+Mean (Ca) plddt: 69.6009 
+
+Saving data...
+
+ 29%|██▊       | 464/1621 [1:00:23<4:19:30, 13.46s/it]PDB 1wmt, Chain A, 41 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13293	2.53 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20290	2.17 s
+Mean (Ca) plddt: 82.3169 
+
+Saving data...
+
+ 29%|██▊       | 465/1621 [1:00:29<3:41:24, 11.49s/it]PDB 2rjo, Chain A, 316 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08097	38.51 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.21543	12.33 s
+Mean (Ca) plddt: 83.3667 
+
+Saving data...
+
+ 29%|██▊       | 466/1621 [1:01:46<9:12:08, 28.68s/it]PDB 3tsy, skipped.
+ 29%|██▉       | 467/1621 [1:01:46<6:42:22, 20.92s/it]PDB 2zf8, Chain A, 246 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.19071	24.71 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.25240	6.78 s
+Mean (Ca) plddt: 81.5951 
+
+Saving data...
+
+ 29%|██▉       | 468/1621 [1:02:36<9:16:36, 28.97s/it]PDB 2v7s, Chain A, 167 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08635	10.63 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20620	3.11 s
+Mean (Ca) plddt: 83.0074 
+
+Saving data...
+
+ 29%|██▉       | 469/1621 [1:02:58<8:38:56, 27.03s/it]PDB 1tv0, Chain A, 32 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.22018	2.36 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.26952	2.56 s
+Mean (Ca) plddt: 87.6377 
+
+Saving data...
+
+ 29%|██▉       | 470/1621 [1:03:04<6:40:22, 20.87s/it]PDB 5mt2, Chain A, 343 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.18425	49.82 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.30449	14.63 s
+Mean (Ca) plddt: 74.2136 
+
+Saving data...
+
+ 29%|██▉       | 471/1621 [1:04:42<13:54:27, 43.54s/it]PDB 6z37, Chain A, 418 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13638	70.91 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.27177	23.80 s
+Mean (Ca) plddt: 87.3679 
+
+Saving data...
+
+ 29%|██▉       | 472/1621 [1:07:01<22:51:58, 71.64s/it]PDB 5j08, Chain A, 163 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05941	11.22 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.12631	3.18 s
+Mean (Ca) plddt: 86.1792 
+
+Saving data...
+
+ 29%|██▉       | 473/1621 [1:07:23<18:09:30, 56.94s/it]PDB 2kan, Chain A, 94 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10372	4.71 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18052	1.79 s
+Mean (Ca) plddt: 82.4993 
+
+Saving data...
+
+ 29%|██▉       | 474/1621 [1:07:33<13:41:17, 42.96s/it]PDB 1ehx, Chain A, 94 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.18470	4.51 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22172	2.07 s
+Mean (Ca) plddt: 93.2677 
+
+Saving data...
+
+ 29%|██▉       | 475/1621 [1:07:43<10:30:22, 33.00s/it]PDB 3ed5, Chain A, 226 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06277	21.02 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16035	5.70 s
+Mean (Ca) plddt: 86.3643 
+
+Saving data...
+
+ 29%|██▉       | 476/1621 [1:08:25<11:20:50, 35.68s/it]PDB 1pv0, Chain A, 46 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10309	2.66 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.10604	1.92 s
+Mean (Ca) plddt: 82.0363 
+
+Saving data...
+
+ 29%|██▉       | 477/1621 [1:08:31<8:30:54, 26.80s/it] PDB 4wyt, Chain A, 201 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06928	14.25 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20928	4.36 s
+Mean (Ca) plddt: 88.8406 
+
+Saving data...
+
+ 29%|██▉       | 478/1621 [1:08:59<8:39:31, 27.27s/it]PDB 3ezx, Chain A, 212 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05758	15.48 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16164	4.92 s
+Mean (Ca) plddt: 92.0962 
+
+Saving data...
+
+ 30%|██▉       | 479/1621 [1:09:31<9:04:27, 28.61s/it]PDB 4k0f, skipped.
+PDB 2lf2, Chain A, 175 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.16751	12.80 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.25316	3.40 s
+Mean (Ca) plddt: 87.8385 
+
+Saving data...
+
+ 30%|██▉       | 481/1621 [1:09:58<6:52:41, 21.72s/it]PDB 2yut, Chain A, 200 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07306	15.09 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.19326	4.35 s
+Mean (Ca) plddt: 89.1277 
+
+Saving data...
+
+ 30%|██▉       | 482/1621 [1:10:27<7:28:15, 23.61s/it]PDB 2oit, Chain A, 434 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09474	80.61 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23471	26.94 s
+Mean (Ca) plddt: 86.9522 
+
+Saving data...
+
+ 30%|██▉       | 483/1621 [1:13:05<18:32:17, 58.64s/it]PDB 2jr0, Chain A, 148 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09729	8.71 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.14504	3.22 s
+Mean (Ca) plddt: 88.6518 
+
+Saving data...
+
+ 30%|██▉       | 484/1621 [1:13:25<15:11:50, 48.12s/it]PDB 7vzm, Chain A, 119 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.22769	6.47 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.34270	2.16 s
+Mean (Ca) plddt: 43.5580 
+
+Saving data...
+
+ 30%|██▉       | 485/1621 [1:13:40<12:12:50, 38.71s/it]PDB 6cws, Chain A, 108 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.15206	6.00 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23077	2.32 s
+Mean (Ca) plddt: 63.5689 
+
+Saving data...
+
+ 30%|██▉       | 486/1621 [1:13:52<9:52:21, 31.31s/it] PDB 4ovy, Chain A, 297 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11667	37.14 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20371	10.21 s
+Mean (Ca) plddt: 84.1416 
+
+Saving data...
+
+ 30%|███       | 487/1621 [1:15:04<13:35:01, 43.12s/it]PDB 1ifp, Chain A, 44 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.01075	2.29 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.02077	1.95 s
+Mean (Ca) plddt: 88.6057 
+
+Saving data...
+
+ 30%|███       | 488/1621 [1:15:09<10:02:13, 31.89s/it]PDB 2jmu, Chain A, 224 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.14826	20.31 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.21111	5.12 s
+Mean (Ca) plddt: 89.8495 
+
+Saving data...
+
+ 30%|███       | 489/1621 [1:15:49<10:44:15, 34.15s/it]PDB 1kit, skipped.
+ 30%|███       | 490/1621 [1:15:49<7:37:16, 24.26s/it] PDB 2go8, Chain A, 87 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.15686	4.55 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.29693	1.88 s
+Mean (Ca) plddt: 61.5275 
+
+Saving data...
+
+ 30%|███       | 491/1621 [1:15:58<6:10:40, 19.68s/it]PDB 2l7x, Chain A, 77 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.15661	3.52 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.25173	1.92 s
+Mean (Ca) plddt: 56.1029 
+
+Saving data...
+
+ 30%|███       | 492/1621 [1:16:06<5:00:33, 15.97s/it]PDB 3bfm, Chain A, 225 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12383	19.78 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.24120	5.36 s
+Mean (Ca) plddt: 79.6154 
+
+Saving data...
+
+ 30%|███       | 493/1621 [1:16:43<7:02:00, 22.45s/it]PDB 1sg7, Chain A, 75 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09587	4.21 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.14336	1.97 s
+Mean (Ca) plddt: 92.4551 
+
+Saving data...
+
+ 30%|███       | 494/1621 [1:16:52<5:45:19, 18.38s/it]PDB 7bqr, Chain A, 137 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08719	8.23 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.14317	2.31 s
+Mean (Ca) plddt: 89.1551 
+
+Saving data...
+
+ 31%|███       | 495/1621 [1:17:10<5:42:20, 18.24s/it]PDB 7mwy, Chain A, 352 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09586	51.95 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17276	16.46 s
+Mean (Ca) plddt: 83.7383 
+
+Saving data...
+
+ 31%|███       | 496/1621 [1:18:54<13:46:05, 44.06s/it]PDB 5i2l, Chain A, 105 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.03102	5.52 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.11049	2.03 s
+Mean (Ca) plddt: 93.2706 
+
+Saving data...
+
+ 31%|███       | 497/1621 [1:19:06<10:41:20, 34.24s/it]PDB 2rts, Chain A, 73 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.17196	4.05 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.24307	2.21 s
+Mean (Ca) plddt: 78.2509 
+
+Saving data...
+
+ 31%|███       | 498/1621 [1:19:15<8:18:54, 26.66s/it] PDB 2hcf, Chain A, 221 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06250	20.79 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16886	5.38 s
+Mean (Ca) plddt: 90.2475 
+
+Saving data...
+
+ 31%|███       | 499/1621 [1:19:55<9:36:43, 30.84s/it]PDB 6ff6, Chain A, 222 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.04176	20.65 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.10388	5.36 s
+Mean (Ca) plddt: 85.5871 
+
+Saving data...
+
+ 31%|███       | 500/1621 [1:20:36<10:28:40, 33.65s/it]PDB 2wew, Chain A, 170 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10936	10.58 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23268	3.62 s
+Mean (Ca) plddt: 81.4766 
+
+Saving data...
+
+ 31%|███       | 501/1621 [1:20:58<9:25:45, 30.31s/it] PDB 2l33, Chain A, 91 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11723	5.70 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20699	2.35 s
+Mean (Ca) plddt: 74.7913 
+
+Saving data...
+
+ 31%|███       | 502/1621 [1:21:10<7:40:45, 24.71s/it]PDB 2p6j, Chain A, 52 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.15012	2.85 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16976	2.09 s
+Mean (Ca) plddt: 75.7137 
+
+Saving data...
+
+ 31%|███       | 503/1621 [1:21:17<6:01:14, 19.39s/it]PDB 6ihr, Chain A, 257 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06382	28.59 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18545	7.38 s
+Mean (Ca) plddt: 94.6945 
+
+Saving data...
+
+ 31%|███       | 504/1621 [1:22:13<9:27:33, 30.49s/it]PDB 2mxz, Chain A, 137 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.15261	7.90 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23133	2.19 s
+Mean (Ca) plddt: 91.9028 
+
+Saving data...
+
+ 31%|███       | 505/1621 [1:22:30<8:10:14, 26.36s/it]PDB 2z51, Chain A, 154 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07255	9.09 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16087	2.65 s
+Mean (Ca) plddt: 84.1210 
+
+Saving data...
+
+ 31%|███       | 506/1621 [1:22:48<7:22:52, 23.83s/it]PDB 2ww8, skipped.
+ 31%|███▏      | 507/1621 [1:22:48<5:11:33, 16.78s/it]PDB 2iqt, Chain A, 281 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.14258	32.22 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23157	9.31 s
+Mean (Ca) plddt: 75.8417 
+
+Saving data...
+
+ 31%|███▏      | 508/1621 [1:23:52<9:31:28, 30.81s/it]PDB 2jun, Chain A, 101 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.20536	4.88 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.26992	2.40 s
+Mean (Ca) plddt: 76.0409 
+
+Saving data...
+
+ 31%|███▏      | 509/1621 [1:24:03<7:44:21, 25.06s/it]PDB 2l3f, Chain A, 161 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12815	9.77 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17827	2.90 s
+Mean (Ca) plddt: 89.0059 
+
+Saving data...
+
+ 31%|███▏      | 510/1621 [1:24:25<7:24:06, 23.98s/it]PDB 2kvz, Chain A, 85 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13703	3.69 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20303	1.96 s
+Mean (Ca) plddt: 81.5001 
+
+Saving data...
+
+ 32%|███▏      | 511/1621 [1:24:33<5:58:06, 19.36s/it]PDB 5al6, Chain A, 44 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.00535	2.36 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.00790	1.92 s
+Mean (Ca) plddt: 91.2731 
+
+Saving data...
+
+ 32%|███▏      | 512/1621 [1:24:38<4:36:52, 14.98s/it]PDB 2kr5, Chain A, 89 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09367	4.28 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17388	2.25 s
+Mean (Ca) plddt: 83.0465 
+
+Saving data...
+
+ 32%|███▏      | 513/1621 [1:24:47<4:05:10, 13.28s/it]PDB 4p0z, Chain A, 114 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06314	6.19 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.15719	2.11 s
+Mean (Ca) plddt: 89.3068 
+
+Saving data...
+
+ 32%|███▏      | 514/1621 [1:25:00<4:00:46, 13.05s/it]PDB 4wa0, Chain A, 353 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.19223	47.87 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.32092	16.32 s
+Mean (Ca) plddt: 72.3790 
+
+Saving data...
+
+ 32%|███▏      | 515/1621 [1:26:38<11:50:36, 38.55s/it]PDB 2n2s, Chain A, 32 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.21368	2.17 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.35566	1.90 s
+Mean (Ca) plddt: 46.5239 
+
+Saving data...
+
+ 32%|███▏      | 516/1621 [1:26:42<8:41:52, 28.34s/it] PDB 3khi, Chain A, 219 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09717	18.98 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18544	5.09 s
+Mean (Ca) plddt: 82.7741 
+
+Saving data...
+
+ 32%|███▏      | 517/1621 [1:27:18<9:23:54, 30.65s/it]PDB 2l0z, Chain A, 41 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.28512	2.41 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.36067	2.22 s
+Mean (Ca) plddt: 48.1380 
+
+Saving data...
+
+ 32%|███▏      | 518/1621 [1:27:24<7:02:57, 23.01s/it]PDB 4ljs, Chain A, 305 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13820	38.72 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22942	11.33 s
+Mean (Ca) plddt: 82.1138 
+
+Saving data...
+
+ 32%|███▏      | 519/1621 [1:28:40<11:56:52, 39.03s/it]PDB 1uap, Chain A, 131 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12647	6.69 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.21989	2.13 s
+Mean (Ca) plddt: 87.0738 
+
+Saving data...
+
+ 32%|███▏      | 520/1621 [1:28:55<9:42:15, 31.73s/it] PDB 1hd6, Chain A, 37 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.19929	2.22 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.33011	2.15 s
+Mean (Ca) plddt: 44.1316 
+
+Saving data...
+
+ 32%|███▏      | 521/1621 [1:29:00<7:13:45, 23.66s/it]PDB 3a25, Chain A, 264 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06711	29.29 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17166	7.73 s
+Mean (Ca) plddt: 92.8360 
+
+Saving data...
+
+ 32%|███▏      | 522/1621 [1:29:58<10:25:15, 34.14s/it]PDB 5zu5, Chain A, 493 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11777	107.07 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.26270	39.07 s
+Mean (Ca) plddt: 75.1182 
+
+Saving data...
+
+ 32%|███▏      | 523/1621 [1:33:28<26:30:06, 86.89s/it]PDB 1kv4, Chain A, 42 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.19414	2.67 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.21059	3.10 s
+Mean (Ca) plddt: 58.3767 
+
+Saving data...
+
+ 32%|███▏      | 524/1621 [1:33:35<19:07:39, 62.77s/it]PDB 2k5v, Chain A, 98 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11842	5.15 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.21039	2.05 s
+Mean (Ca) plddt: 91.6845 
+
+Saving data...
+
+ 32%|███▏      | 525/1621 [1:33:46<14:24:44, 47.34s/it]PDB 5eb9, Chain A, 112 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13941	5.56 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.25614	2.44 s
+Mean (Ca) plddt: 83.8937 
+
+Saving data...
+
+ 32%|███▏      | 526/1621 [1:33:57<11:05:52, 36.49s/it]PDB 2lqv, Chain A, 99 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.20976	4.77 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.28383	2.05 s
+Mean (Ca) plddt: 81.6385 
+
+Saving data...
+
+ 33%|███▎      | 527/1621 [1:34:07<8:40:39, 28.56s/it] PDB 2boe, Chain X, 281 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06335	31.70 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18197	9.15 s
+Mean (Ca) plddt: 94.2866 
+
+Saving data...
+
+ 33%|███▎      | 528/1621 [1:35:06<11:25:26, 37.63s/it]PDB 2kig, Chain A, 161 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.19583	10.34 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.30426	2.98 s
+Mean (Ca) plddt: 68.8376 
+
+Saving data...
+
+ 33%|███▎      | 529/1621 [1:35:27<9:56:01, 32.75s/it] PDB 4rsf, Chain A, 265 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.14014	31.17 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23204	7.90 s
+Mean (Ca) plddt: 69.6199 
+
+Saving data...
+
+ 33%|███▎      | 530/1621 [1:36:28<12:27:28, 41.11s/it]PDB 2b4n, Chain A, 42 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12052	2.35 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.12219	1.97 s
+Mean (Ca) plddt: 74.4607 
+
+Saving data...
+
+ 33%|███▎      | 531/1621 [1:36:33<9:11:37, 30.36s/it] PDB 6dnm, Chain A, 187 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.18606	14.21 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.27962	3.75 s
+Mean (Ca) plddt: 65.2921 
+
+Saving data...
+
+ 33%|███▎      | 532/1621 [1:37:02<9:02:36, 29.90s/it]PDB 6bua, skipped.
+ 33%|███▎      | 533/1621 [1:37:02<6:20:05, 20.96s/it]PDB 5n2e, skipped.
+ 33%|███▎      | 534/1621 [1:37:02<4:26:58, 14.74s/it]PDB 1q5z, Chain A, 145 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08142	8.64 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.15603	2.57 s
+Mean (Ca) plddt: 78.2279 
+
+Saving data...
+
+ 33%|███▎      | 535/1621 [1:37:20<4:43:03, 15.64s/it]PDB 3h9w, Chain A, 106 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12347	6.53 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20873	1.95 s
+Mean (Ca) plddt: 78.6736 
+
+Saving data...
+
+ 33%|███▎      | 536/1621 [1:37:32<4:24:02, 14.60s/it]PDB 2dl5, Chain A, 78 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11111	3.87 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23324	1.86 s
+Mean (Ca) plddt: 76.5602 
+
+Saving data...
+
+ 33%|███▎      | 537/1621 [1:37:41<3:50:03, 12.73s/it]PDB 4gif, Chain A, 45 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.01096	2.32 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.02164	1.95 s
+Mean (Ca) plddt: 90.8550 
+
+Saving data...
+
+ 33%|███▎      | 538/1621 [1:37:45<3:06:13, 10.32s/it]PDB 2p9w, Chain A, 333 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.15094	44.94 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.28906	13.77 s
+Mean (Ca) plddt: 74.4105 
+
+Saving data...
+
+ 33%|███▎      | 539/1621 [1:39:14<10:07:29, 33.69s/it]PDB 1lgp, Chain A, 113 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11154	5.69 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18690	2.16 s
+Mean (Ca) plddt: 85.0654 
+
+Saving data...
+
+ 33%|███▎      | 540/1621 [1:39:25<8:05:42, 26.96s/it] PDB 3rmq, Chain A, 108 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12148	5.02 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.20105	2.23 s
+Mean (Ca) plddt: 85.5439 
+
+Saving data...
+
+ 33%|███▎      | 541/1621 [1:39:34<6:30:54, 21.72s/it]PDB 2dlk, Chain A, 79 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11052	4.06 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22072	2.12 s
+Mean (Ca) plddt: 65.6520 
+
+Saving data...
+
+ 33%|███▎      | 542/1621 [1:39:43<5:22:22, 17.93s/it]PDB 2djp, Chain A, 77 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12897	3.32 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22260	1.64 s
+Mean (Ca) plddt: 68.3061 
+
+Saving data...
+
+ 33%|███▎      | 543/1621 [1:39:51<4:24:20, 14.71s/it]PDB 6fj7, Chain A, 80 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06880	2.95 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17431	1.69 s
+Mean (Ca) plddt: 88.7279 
+
+Saving data...
+
+ 34%|███▎      | 544/1621 [1:39:56<3:35:42, 12.02s/it]PDB 5lst, skipped.
+ 34%|███▎      | 545/1621 [1:39:56<2:31:26,  8.44s/it]PDB 4lgc, Chain A, 377 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.15781	58.07 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.27668	18.86 s
+Mean (Ca) plddt: 74.3422 
+
+Saving data...
+
+ 34%|███▎      | 546/1621 [1:41:52<12:05:44, 40.51s/it]PDB 1oqy, Chain A, 363 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13713	56.48 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.15758	17.23 s
+Mean (Ca) plddt: 83.2654 
+
+Saving data...
+
+ 34%|███▎      | 547/1621 [1:43:43<18:26:28, 61.81s/it]PDB 4h5y, skipped.
+ 34%|███▍      | 548/1621 [1:43:44<12:56:57, 43.45s/it]PDB 2e5t, Chain A, 46 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.04737	2.69 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.13071	2.15 s
+Mean (Ca) plddt: 83.9944 
+
+Saving data...
+
+ 34%|███▍      | 549/1621 [1:43:49<9:33:26, 32.10s/it] PDB 2dzm, Chain A, 100 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13405	4.33 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.21784	1.94 s
+Mean (Ca) plddt: 78.4955 
+
+Saving data...
+
+ 34%|███▍      | 550/1621 [1:43:59<7:32:11, 25.33s/it]PDB 1z6m, Chain A, 171 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10756	12.13 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.18984	3.06 s
+Mean (Ca) plddt: 81.3062 
+
+Saving data...
+
+ 34%|███▍      | 551/1621 [1:44:23<7:26:37, 25.04s/it]PDB 4alz, Chain A, 194 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06878	14.92 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.14454	4.15 s
+Mean (Ca) plddt: 87.5195 
+
+Saving data...
+
+ 34%|███▍      | 552/1621 [1:44:54<7:53:48, 26.59s/it]PDB 1chc, Chain A, 68 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.18824	3.54 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23322	2.04 s
+Mean (Ca) plddt: 77.8900 
+
+Saving data...
+
+ 34%|███▍      | 553/1621 [1:45:00<6:08:09, 20.68s/it]PDB 6fx6, Chain A, 234 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.16534	21.33 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.27599	6.01 s
+Mean (Ca) plddt: 72.2334 
+
+Saving data...
+
+ 34%|███▍      | 554/1621 [1:45:43<8:05:05, 27.28s/it]PDB 1pav, Chain A, 78 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.20811	4.14 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.21153	2.04 s
+Mean (Ca) plddt: 91.4175 
+
+Saving data...
+
+ 34%|███▍      | 555/1621 [1:45:51<6:21:20, 21.46s/it]PDB 6aly, Chain A, 92 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13079	4.65 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16136	1.90 s
+Mean (Ca) plddt: 68.7591 
+
+Saving data...
+
+ 34%|███▍      | 556/1621 [1:46:01<5:20:10, 18.04s/it]PDB 3ax1, Chain A, 298 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.11637	38.14 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.19780	10.65 s
+Mean (Ca) plddt: 72.5463 
+
+Saving data...
+
+ 34%|███▍      | 557/1621 [1:47:15<10:15:27, 34.71s/it]PDB 3zj1, Chain A, 83 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.09952	4.99 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17913	2.61 s
+Mean (Ca) plddt: 86.5169 
+
+Saving data...
+
+ 34%|███▍      | 558/1621 [1:47:25<8:07:26, 27.51s/it] PDB 2fcd, Chain A, 78 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08084	3.28 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.13831	1.79 s
+Mean (Ca) plddt: 86.0438 
+
+Saving data...
+
+ 34%|███▍      | 559/1621 [1:47:32<6:16:27, 21.27s/it]PDB 4m0m, skipped.
+ 35%|███▍      | 560/1621 [1:47:32<4:24:31, 14.96s/it]PDB 6yej, skipped.
+ 35%|███▍      | 561/1621 [1:47:33<3:06:45, 10.57s/it]PDB 1a7m, Chain A, 180 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13661	12.38 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.17021	3.34 s
+Mean (Ca) plddt: 87.4214 
+
+Saving data...
+
+ 35%|███▍      | 562/1621 [1:48:01<4:39:41, 15.85s/it]PDB 4dni, Chain A, 257 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10058	27.22 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23810	7.70 s
+Mean (Ca) plddt: 77.6865 
+
+Saving data...
+
+ 35%|███▍      | 563/1621 [1:48:54<7:59:16, 27.18s/it]PDB 3t6p, Chain A, 330 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08780	45.13 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.16239	13.55 s
+Mean (Ca) plddt: 84.2566 
+
+Saving data...
+
+ 35%|███▍      | 564/1621 [1:50:25<13:32:40, 46.13s/it]PDB 3cbn, Chain A, 142 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08614	8.20 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22174	2.53 s
+Mean (Ca) plddt: 89.0827 
+
+Saving data...
+
+ 35%|███▍      | 565/1621 [1:50:41<10:54:55, 37.21s/it]PDB 4s1p, Chain A, 174 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10406	11.02 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22329	3.41 s
+Mean (Ca) plddt: 86.3644 
+
+Saving data...
+
+ 35%|███▍      | 566/1621 [1:51:03<9:34:15, 32.66s/it] PDB 6itw, Chain A, 216 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.12340	18.76 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23522	4.87 s
+Mean (Ca) plddt: 77.6822 
+
+Saving data...
+
+ 35%|███▍      | 567/1621 [1:51:40<9:56:55, 33.98s/it]PDB 2pyu, Chain A, 208 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.07333	15.89 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.19264	4.22 s
+Mean (Ca) plddt: 87.0312 
+
+Saving data...
+
+ 35%|███▌      | 568/1621 [1:52:11<9:41:25, 33.13s/it]PDB 2kbz, Chain A, 99 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.22766	4.69 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23751	2.02 s
+Mean (Ca) plddt: 82.3671 
+
+Saving data...
+
+ 35%|███▌      | 569/1621 [1:52:22<7:42:34, 26.38s/it]PDB 3cwo, Chain X, 236 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.14927	20.66 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.25638	6.09 s
+Mean (Ca) plddt: 78.4904 
+
+Saving data...
+
+ 35%|███▌      | 570/1621 [1:53:05<9:10:10, 31.41s/it]PDB 1nqz, Chain A, 171 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.10486	11.67 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22981	3.30 s
+Mean (Ca) plddt: 82.8233 
+
+Saving data...
+
+ 35%|███▌      | 571/1621 [1:53:27<8:18:58, 28.51s/it]PDB 2fc6, Chain A, 50 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.08532	2.48 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22266	1.83 s
+Mean (Ca) plddt: 59.1834 
+
+Saving data...
+
+ 35%|███▌      | 572/1621 [1:53:32<6:15:33, 21.48s/it]PDB 1pxe, Chain A, 48 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.30275	2.56 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.39289	2.16 s
+Mean (Ca) plddt: 50.8972 
+
+Saving data...
+
+ 35%|███▌      | 573/1621 [1:53:38<4:53:18, 16.79s/it]PDB 1wqb, Chain A, 32 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.13636	2.21 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.23410	1.94 s
+Mean (Ca) plddt: 89.3037 
+
+Saving data...
+
+ 35%|███▌      | 574/1621 [1:53:43<3:53:04, 13.36s/it]PDB 3cni, Chain A, 143 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06857	7.88 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.15144	2.50 s
+Mean (Ca) plddt: 89.7682 
+
+Saving data...
+
+ 35%|███▌      | 575/1621 [1:53:59<4:04:07, 14.00s/it]PDB 6uch, Chain A, 41 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.06690	3.01 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.07133	2.02 s
+Mean (Ca) plddt: 81.1982 
+
+Saving data...
+
+ 36%|███▌      | 576/1621 [1:54:04<3:19:41, 11.47s/it]PDB 6bea, Chain A, 433 residues.
+Calculating PDB contact map...
+Calculating esmfold predicted contact map, explicit method...
+eff_energy: 0.05908	71.72 s
+Calculating esmfold predicted contact map, implicit method...
+eff_energy: 0.22868	27.11 s
+Mean (Ca) plddt: 91.3521 
+
+Saving data...
+
+ 36%|███▌      | 577/1621 [1:56:28<14:50:24, 51.17s/it]PDB 1xgk, Chain A, 325 residues.
+Calculating PDB contact map...

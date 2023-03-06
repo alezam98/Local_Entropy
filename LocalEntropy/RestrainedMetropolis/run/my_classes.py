@@ -136,6 +136,7 @@ class Mutation_class(Basic_class):
             gamma : float = 0.,
             results_dir : str = 'results',
             restart_bool : bool = False,
+            unique_length : int = 10000,
             device : int = 0,
             distance_threshold : float = 4.
     ):
@@ -149,9 +150,9 @@ class Mutation_class(Basic_class):
         self.wt_sequence = wt_sequence
         self.wt_contacts = self.calculate_contacts(self.wt_sequence)
 
-        if ref_sequence == '': 
+        if ref_sequence == '':
             self.ref_sequence = self.wt_sequence
-            self.ref_contacts = self.wt_contacts
+            self.ref_contacts = self.wt_contacts.copy()
         else:
             if len(ref_sequence) == len(wt_sequence): 
                 self.ref_sequence = ref_sequence
@@ -160,9 +161,9 @@ class Mutation_class(Basic_class):
                 raise ValueError("Mutation_class.__init__(): starting sequence ref_sequence must have the same length of the wild-type sequence.")
         self.ref_array = np.array(list(self.ref_sequence))
 
-        if starting_sequence == '': 
+        if starting_sequence == '':
             self.starting_sequence = self.ref_sequence
-            self.starting_contacts = self.ref_contacts
+            self.starting_contacts = self.ref_contacts.copy()
         else:
             if len(ref_sequence) == len(wt_sequence): 
                 self.starting_sequence = starting_sequence
@@ -183,11 +184,14 @@ class Mutation_class(Basic_class):
         if eq_mutations >= 0: self.eq_mutations = eq_mutations
         else: raise ValueError("Mutation_class.__init__(): eq_mutations can't be negative.")
 
-        if T > 0.: self.T = T
-        else: raise ValueError("Mutation_class.__init__(): T must be positive.")
+        if T >= 0.: self.T = T
+        else: raise ValueError("Mutation_class.__init__(): T can't be negative.")
 
         if gamma >= 0.: self.gamma = gamma
         else: raise ValueError("Mutation_class.__init__(): gamma can't be negative.")
+
+        if unique_length >= 0: self.unique_length = unique_length
+        else: raise ValueError("Mutation_class.__init__(): unique_length can't be negative.")
 
         # Initialization
         self._get_id()
@@ -231,13 +235,15 @@ class Mutation_class(Basic_class):
     ### Reset parameters for new simulation
     def _reset(self):
         self.last_sequence = self.starting_sequence
-        self.last_contacts = self.starting_contacts
         self.last_eff_energy = self.calculate_effective_energy(self.starting_contacts)
         self.last_ddG = 0
         self.last_PAM1_distance, self.last_Hamm_distance = self.get_distances(self.starting_sequence)
         self.generation = 0
         self.accepted_mutations = 0
         
+        self.unique_sequences = np.array([self.starting_sequence], dtype = str)
+        self.unique_data = np.array([[self.last_eff_energy, self.last_ddG, self.last_PAM1_distance, self.last_Hamm_distance]], dtype = float)
+
         paths = [f'../{self.results_dir}/mutants_{self.file_id}.dat', f'../{self.results_dir}/data_{self.file_id}.dat', f'../{self.results_dir}/status_{self.file_id}.txt']
         onlyfiles = [f'../{self.results_dir}/{f}' for f in listdir(f'../{self.results_dir}') if isfile(f'../{self.results_dir}/{f}')]
 
@@ -258,46 +264,56 @@ class Mutation_class(Basic_class):
             # Discard incomplete data
             with open(f'../{self.results_dir}/mutants_{self.file_id}.dat', 'r') as mutants_file:
                 muts_lines = mutants_file.readlines()
-                muts_generation = len(muts_lines)
+                muts_num = len(muts_lines)
 
             with open(f'../{self.results_dir}/data_{self.file_id}.dat', 'r') as data_file:
                 data_lines = data_file.readlines()
-                data_generation = len(data_lines)
+                data_num = len(data_lines)
 
-            if muts_generation < data_generation:
-                self.generation = muts_generation - 1   # do not count wt sequence
+            if muts_num < data_num:
                 with open(f'../{self.results_dir}/data_{self.file_id}.dat', 'w') as data_file:
-                    for line in data_lines[:self.generation + 1]: 
+                    for line in data_lines[:muts_num]: 
                         print(line, end = '', file = data_file)
 
-            elif muts_generation > data_generation:
-                self.generation = data_generation - 1   # do not count wt sequence
+            elif muts_num > data_num:
                 with open(f'../{self.results_dir}/mutants_{self.file_id}.dat', 'w') as mutants_file:
-                    for line in muts_lines[:self.generation + 1]: 
+                    for line in muts_lines[:data_num]: 
                         print(line, end = '', file = mutants_file)
 
-            elif muts_generation == data_generation:
-                self.generation = muts_generation - 1
-
-
-            # Last sequence residues and contacts
+            # Last sequence residues and contacts, and unique mutations
             with open(f'../{self.results_dir}/mutants_{self.file_id}.dat', 'r') as mutants_file:
-                last_line = mutants_file.readlines()[-1].split('\t')
-                self.last_sequence = last_line[1]
-                if self.last_sequence[-1] == '\n': self.last_sequence = self.last_sequence[:-1]
-                self.last_contacts = self.calculate_contacts(self.last_sequence)
+                lines = mutants_file.readlines()
+            
+            last_line = lines[-1].split('\t')
+            self.last_sequence = last_line[1]
+            if self.last_sequence[-1] == '\n': self.last_sequence = self.last_sequence[:-1]
+            
+            sequences = np.array([line.split('\t')[1][:-1] for line in lines], dtype = str)
+            self.unique_sequences = np.unique(sequences)
+            if len(self.unique_sequences) > self.unique_length:
+                self.unique_sequences = self.unique_sequences[(len(self.unique_sequences) - self.unique_length):]
 
-
-            # Last sequence data
+            # Last sequence data, and unique mutations data
             with open(f'../{self.results_dir}/data_{self.file_id}.dat', 'r') as data_file:
-                last_line = data_file.readlines()[-1].split('\t')
-                self.last_eff_energy = float( last_line[1] )
-                self.last_ddG = float( last_line[2] )
-                self.last_PAM1_distance = float( last_line[3] )
-                self.last_Hamm_distance = int( last_line[4] )
-                self.accepted_mutations = int( float(last_line[5]) * self.generation )
-                self.T = float( last_line[6] )
-                self.gamma = float( last_line[7] )
+                lines = np.array(data_file.readlines(), dtype = str)
+
+            last_line = lines[-1].split('\t')
+            self.generation = int( last_line[0] )
+            self.last_eff_energy = float( last_line[1] )
+            self.last_ddG = float( last_line[2] )
+            self.last_PAM1_distance = float( last_line[3] )
+            self.last_Hamm_distance = int( last_line[4] )
+            self.accepted_mutations = int( float(last_line[5]) * self.generation )
+            self.T = float( last_line[6] )
+            self.gamma = float( last_line[7] )
+
+            obs_idxs = [1, 2, 3, 4] # i.e. Effective energy, ddG, PAM1 distance, Hamming distance
+            masks = [(sequences == unique_sequence) for unique_sequence in self.unique_sequences]
+            self.unique_data = np.array([[0.] * len(obs_idxs)], dtype = float)
+            for mask in masks:
+                data = np.array(lines[mask][0].split('\t'), dtype = float)[obs_idxs]
+                self.unique_data = np.append(self.unique_data, [data], axis = 0)
+            self.unique_data = self.unique_data[1:]
 
         else:
             self._reset()
@@ -371,32 +387,58 @@ class Mutation_class(Basic_class):
             mutants_file = open(f'../{self.results_dir}/mutants_{self.file_id}.dat', 'a')
             data_file = open(f'../{self.results_dir}/data_{self.file_id}.dat', 'a')
 
-        if self.generation == 0 or print_start:
+        if print_start:
             print(f'{self.generation}\t{self.last_sequence}', file = mutants_file)
-            print(f'{self.generation}\t{format(self.last_eff_energy, ".15f")}\t{format(self.last_ddG, ".15f")}\t{self.last_PAM1_distance}\t{self.last_Hamm_distance}\t{float(self.accepted_mutations)}\t{self.T}\t{self.gamma}\t{len(self.wt_sequence)}', file = data_file)
+            if self.generation == 0:
+                print(f'{self.generation}\t{format(self.last_eff_energy, ".15f")}\t{format(self.last_ddG, ".15f")}\t{self.last_PAM1_distance}\t{self.last_Hamm_distance}\t{self.accepted_mutations}\t{self.T}\t{self.gamma}\t{len(self.wt_sequence)}', file = data_file)
+            else:
+                print(f'{self.generation}\t{format(self.last_eff_energy, ".15f")}\t{format(self.last_ddG, ".15f")}\t{self.last_PAM1_distance}\t{self.last_Hamm_distance}\t{self.accepted_mutations / self.generation}\t{self.T}\t{self.gamma}\t{len(self.wt_sequence)}', file = data_file)
 
         # Metropolis
         for imut in range(mutations):
             # Mutant generation
             self.generation += 1
             mt_sequence = self.single_mutation()
-            mt_contacts = self.calculate_contacts(mt_sequence)
-    
+            
             # Observables
-            eff_energy = self.calculate_effective_energy(mt_contacts)
-            ddG = 0
-            PAM1_distance, Hamm_distance = self.get_distances(mt_sequence)
+            mask = self.unique_sequences == mt_sequence
+            assert np.sum(mask.astype(int)) <= 1, "Too many 'unique' sequences equal to the same mutant."
+            if np.any(mask):
+                eff_energy = self.unique_data[mask, 0][0]
+                ddG = self.unique_data[mask, 1][0]
+                PAM1_distance = self.unique_data[mask, 2][0]
+                Hamm_distance = self.unique_data[mask, 3][0]
+            else:
+                mt_contacts = self.calculate_contacts(mt_sequence)
+                eff_energy = self.calculate_effective_energy(mt_contacts)
+                ddG = 0
+                PAM1_distance, Hamm_distance = self.get_distances(mt_sequence)
+
+                self.unique_sequences = np.append(self.unique_sequences, mt_sequence)
+                self.unique_data = np.append(self.unique_data, [[eff_energy, ddG, PAM1_distance, Hamm_distance]], axis = 0)
+                assert len(self.unique_sequences) == len(self.unique_data), "Length of unique sequences and unique data must coincide."
+                if len(self.unique_sequences) > self.unique_length:
+                    self.unique_sequences = self.unique_sequences[1:]
+                    self.unique_data = self.unique_data[1:]
 
             # Update lists
             p = np.random.rand()
-            if p < np.exp( - (eff_energy - self.last_eff_energy) / self.T  - self.gamma * PAM1_distance ):
-                self.last_sequence = mt_sequence
-                self.last_contacts = mt_contacts
-                self.last_eff_energy = eff_energy
-                self.last_ddG = ddG
-                self.last_PAM1_distance = PAM1_distance
-                self.last_Hamm_distance = Hamm_distance
-                self.accepted_mutations += 1
+            if self.T > 0.:
+                if p <= np.exp(- (eff_energy - self.last_eff_energy) / self.T  - self.gamma * (PAM1_distance - self.last_PAM1_distance)):
+                    self.last_sequence = mt_sequence
+                    self.last_eff_energy = eff_energy
+                    self.last_ddG = ddG
+                    self.last_PAM1_distance = PAM1_distance
+                    self.last_Hamm_distance = Hamm_distance
+                    self.accepted_mutations += 1
+            elif self.T == 0.:
+                if eff_energy == 0. and p <= np.exp(- self.gamma * (PAM1_distance - self.last_PAM1_distance)):
+                    self.last_sequence = mt_sequence
+                    self.last_eff_energy = eff_energy
+                    self.last_ddG = ddG
+                    self.last_PAM1_distance = PAM1_distance
+                    self.last_Hamm_distance = Hamm_distance
+                    self.accepted_mutations += 1
 
             # Save data
             print(f'{self.generation}\t{self.last_sequence}', file = mutants_file)
@@ -418,10 +460,19 @@ class Mutation_class(Basic_class):
         
         print(f'Mutation algorithm protein:')
         print(f'Wild-type sequence: {self.wt_sequence}')
+        
         if self.ref_sequence != self.wt_sequence: 
-            print(f'Reference sequence: {self.ref_sequence}\n')
+            print(f'Reference sequence: {self.ref_sequence}')
         else: 
-            print(f'Reference sequence: wild-type sequence\n')
+            print(f'Reference sequence: wild-type sequence')
+        
+        if self.starting_sequence != self.wt_sequence and self.starting_sequence != self.ref_sequence:
+            print(f'Starting sequence:  {self.starting_sequence}\n')
+        else:
+            if self.starting_sequence == self.wt_sequence:
+                print(f'Starting sequence:  wild-type sequence\n')
+            else:
+                print(f'Starting sequence:  reference sequence\n')
 
         print(f'Mutation algorithm parameters:')
         print(f'metropolis mutations:    {self.metr_mutations}')
@@ -429,6 +480,7 @@ class Mutation_class(Basic_class):
         print(f'temperature:             {self.T}')
         print(f'gamma:                   {self.gamma}')
         print(f'distance threshold:      {self.distance_threshold} [A]')
+        print(f'unique length:           {self.unique_length}')
         print(f'results directory:       ../{self.results_dir}\n')
 
 
@@ -440,10 +492,19 @@ class Mutation_class(Basic_class):
 
         print(f'Generation:  {self.generation}', file = print_file)
         print(f'Wild tipe:   {self.wt_sequence}', file = print_file)
+        
         if self.ref_sequence != self.wt_sequence:
             print(f'Reference sequence: {self.ref_sequence}', file = print_file)
         else:
             print(f'Reference sequence: wild-type sequence', file = print_file)
+        
+        if self.starting_sequence != self.wt_sequence and self.starting_sequence != self.ref_sequence:
+            print(f'Starting sequence:  {self.starting_sequence}\n', file = print_file)
+        else:
+            if self.starting_sequence == self.wt_sequence:
+                print(f'Starting sequence:  wild-type sequence\n', file = print_file)      
+            else:
+                print(f'Starting sequence:  reference sequence\n', file = print_file)
         
         print(f'Last mutant: {self.last_sequence}', file = print_file)
         print(f'Effective energy: {self.last_eff_energy}', file = print_file)
@@ -462,7 +523,7 @@ class Mutation_class(Basic_class):
         self.wt_contacts = self.calculate_contacts(self.wt_sequence)
         if len(self.ref_sequence) != len(self.wt_sequence):
             self.ref_sequence = self.wt_sequence
-            self.ref_contacts = self.wt_contacts
+            self.ref_contacts = self.wt_contacts.copy()
         self._reset()
 
     def set_ref_sequence(self, ref_sequence):
@@ -489,8 +550,8 @@ class Mutation_class(Basic_class):
         else: raise ValueError("Mutation_class.set_eq_mutations(): eq_mutations can't be negative.")
 
     def set_T(self, T):
-        if T > 0.: self.T = T
-        else: raise ValueError("Mutation_class.set_T(): T must be positive.")
+        if T >= 0.: self.T = T
+        else: raise ValueError("Mutation_class.set_T(): T can't be negative.")
         self._get_id()
 
     def set_gamma(self, gamma):
@@ -503,6 +564,11 @@ class Mutation_class(Basic_class):
         if self.restart_bool: self._restart()
         else: self._reset()
 
+    def set_unique_length(self, unique_length):
+        if unique_length >= 0: self.unique_length = unique_length
+        else: raise ValueError("Mutation_class.__init__(): unique_length can't be negative.")
+        self.restart_bool()
+
 
 
     ### Get modules
@@ -510,17 +576,19 @@ class Mutation_class(Basic_class):
     def get_wt_contacts(self): return self.wt_contacts
     def get_ref_sequence(self): return self.ref_sequence
     def get_ref_contacts(self): return self.ref_contacts
+    def get_starting_sequence(self): return self.starting_sequence
+    def get_starting_contacts(self): return self.starting_contacts
     def get_metr_mutations(self): return self.metr_mutations
     def get_eq_mutations(self): return self.eq_mutations
     def get_T(self): return self.T
     def get_gamma(self): return self.gamma
     def get_restart_bool(self): return self.restart_bool
+    def get_unique_length(self): return self.unique_length
     def get_generation(self): return self.generation
     def get_last_eff_energy(self): return self.last_eff_energy
     def get_last_ddG(self): return self.last_ddG
     def get_last_PAM1_distance(self): return self.last_PAM1_distance
     def get_last_Hamm_distance(self): return self.last_Hamm_distance
     def get_last_sequence(self): return self.last_sequence
-    def get_last_contacts(self): return self.last_contacts
     def get_distmatrix(self): return self.distmatrix
     def get_residues(self): return self.residues

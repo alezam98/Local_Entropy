@@ -1,0 +1,20 @@
+Defining wild-type sequence and simulation parameters...
+Initiating algorithm...
+
+Basic class, status:
+model: esmfold_v1
+device: 1
+distance threshold: 4.0 [A] 
+
+Traceback (most recent call last):
+  File "/home/unimi-zambona/workspace/WallMetropolis/run/wall_metropolis.py", line 77, in <module>
+    main(args)
+  File "/home/unimi-zambona/workspace/WallMetropolis/run/wall_metropolis.py", line 39, in main
+    algorithm = Mutation_class(
+  File "/home/unimi-zambona/workspace/WallMetropolis/run/my_wall_classes.py", line 199, in __init__
+    self.set_restart_bool(restart_bool)
+  File "/home/unimi-zambona/workspace/WallMetropolis/run/my_wall_classes.py", line 564, in set_restart_bool
+    if self.restart_bool: self._restart()
+  File "/home/unimi-zambona/workspace/WallMetropolis/run/my_wall_classes.py", line 305, in _restart
+    self.last_Hamm_distance = int( last_line[4] )
+ValueError: invalid literal for int() with base 10: '3.0'

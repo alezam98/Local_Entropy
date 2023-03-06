@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 set -e
-source "/Data/alessandroz/myenv/bin/activate"
+source "$HOME/workspace/myenv/bin/activate"
 
 # Start the simulations
-#for inputs_dir_raw in ...
+#for protein_name in ...
 #do
-#	sed -i "2s/.*/$inputs_dir_raw/" inputs.txt
+#	sed -i "1s/.*/$protein_name/" inputs.txt
 #	sleep 10 s
-#	nohup python -u localentropy.py >& output_$inputs_dir_raw.out &
+#	nohup python -u localentropy.py >& output_$protein_name.out &
 #done
 nohup python -u localentropy.py >& output.out &

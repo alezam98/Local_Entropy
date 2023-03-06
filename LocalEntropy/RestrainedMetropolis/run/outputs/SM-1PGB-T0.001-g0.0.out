@@ -1,0 +1,27 @@
+Defining wild-type sequence and simulation parameters...
+Initiating algorithm...
+
+Basic class, status:
+model: esmfold_v1
+device: 2
+distance threshold: 4.0 [A] 
+
+Simulation PID: 33817
+
+Mutation algorithm protein:
+Wild-type sequence: MTYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE
+Reference sequence: wild-type sequence
+Starting sequence:  wild-type sequence
+
+Mutation algorithm parameters:
+metropolis mutations:    60000
+equilibration mutations: 0
+temperature:             0.001
+gamma:                   0.0
+distance threshold:      4.0 [A]
+unique length:           10000
+results directory:       ../results/SM_1PGB_T0.001_g0.0
+
+Starting the simulation...
+- Simulation gamma: 0.0
+  Metropolis...

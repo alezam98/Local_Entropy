@@ -1,0 +1,27 @@
+Defining wild-type sequence and simulation parameters...
+Initiating algorithm...
+
+Basic class, status:
+model: esmfold_v1
+device: 2
+distance threshold: 4.0 [A] 
+
+Simulation PID: 2030162
+
+Mutation algorithm protein:
+Wild-type sequence: MTYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE
+Reference sequence: wild-type sequence
+Starting sequence:  wild-type sequence
+
+Mutation algorithm parameters:
+metropolis mutations:    120000
+equilibration mutations: 1000
+temperature:             0.001
+dmax:                    5.0
+distance threshold:      4.0 [A]
+unique length:           10000
+results directory:       ../results/1PGB_T0.001_d5.0
+
+Starting the simulation...
+- Simulation dmax: 5.0
+  Equilibration phase...

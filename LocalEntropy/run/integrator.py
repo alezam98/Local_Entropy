@@ -1,5 +1,5 @@
-#!/usr/bin/env python
 import numpy as np
+import os
 from os import listdir
 from os.path import isfile, isdir
 
@@ -9,38 +9,36 @@ class Integrator:
     ### Initialization
     def __init__(
         self,
-        discarded_mutations : int,
         inputs_dir : str,
         const_step : bool = True,
         initialize : bool = False
     ):
-        assert discarded_mutations >= 0, "discarded_mutations can't be negative."
-        self.discarded_mutations = discarded_mutations
         self.const_step = const_step
 
         if inputs_dir[-1] == '/': inputs_dir = inputs_dir[:-1]
-        inputs_dir = inputs_dir.split('/')[-2:]
-        self.inputs_dir = f'../RestrainedMetropolis/results/{inputs_dir[0]}/{inputs_dir[1]}'
-        self.results_dir = f'../results/{inputs_dir[0]}'
-        self._get_id(inputs_dir[1])
-        self._check_dir()
-
+        self.inputs_dir = inputs_dir
+        
+        self._get_id()
+        self._check_directory()
+        
         if initialize: self.initialize()
-
+        
 
 
     ### Prepare data file id
-    def _get_id(self, protein_type):
-        filelist = [filename for filename in listdir(f'{self.inputs_dir}') if isfile(f'{self.inputs_dir}/{filename}')]
-        file_ids = [filename.split('_')[1:3] for filename in filelist]
-        file_id = np.unique(file_ids)
-        assert len(file_id) == 1, f"Different simulation parameters in {self.inputs_dir} directory."
-        self.file_id = f'{protein_type}_{file_id[0]}'
-
-
+    def _get_id(self):
+        last_dir = self.inputs_dir.split('/')[-1]
+        id_list = last_dir.split('_')[1:3]
+        self.file_id = f'{id_list[0]}_{id_list[1]}'
+        
+        
 
     ### Check for directory to store integration results (derived from inputs_dir)
     def _check_directory(self):
+        splitted_dir = self.inputs_dir.split('/')
+        last_dir = self.file_id.split('-')[0] + '_' + self.file_id.split('_')[-1]
+        self.results_dir = f'{splitted_dir[0]}/{splitted_dir[2]}/{last_dir}'
+        
         path = self.results_dir.split('/')[1:]
         actual_dir = '..'
         for idx, new_dir in enumerate(path):
@@ -54,27 +52,28 @@ class Integrator:
 
     ### Prepare for integration
     def initialize(self):
-        self.load_data(self.discarded_mutations, self.const_step)
+        self.load_data(self.const_step)
         self.calculate_means_matrix()
 
 
 
     ### Load data from inputs_dir
-    def load_data(self, discarded_mutations, const_step):
+    def load_data(self, const_step):
         # Load dlists and gamma
         gammas, dlists = [], []
-        data_files = [filename for filename in listdir(f'{self.inputs_dir}') if isfile(f'{self.inputs_dir}/{filename}') and ('data' in filename)]
+        data_files = [filename for filename in listdir(f'{self.inputs_dir}') if isfile(f'{self.inputs_dir}/{filename}') and ('data' in filename) and (not 'eq' in filename)]
 
         for data_file in data_files:
             with open(f'{self.inputs_dir}/{data_file}', 'r') as file:
                 lines = file.readlines()
+            length = float(lines[0].split('\t')[-1])
             gamma = float(lines[0].split('\t')[-2])
-            dlist = [float(line.split('\t')[3]) for line in lines]
+            dlist = [float(line.split('\t')[3]) / length for line in lines]
             gammas.append(gamma)
-            dlists.append(dlist[discarded_mutations:])
-
+            dlists.append(dlist)
+        
         self.gammas = np.sort(gammas)[::-1]
-        self.dlists = np.array([dlist[gammas.index(gamma)] for gamma in ord_gammas], dtype = float)[::-1]
+        self.dlists = np.array([dlists[gammas.index(gamma)] for gamma in self.gammas], dtype = float)
 
         if const_step:
             shifted_gammas = np.append(self.gammas[1:], [self.gammas[0]])
@@ -82,12 +81,12 @@ class Integrator:
             assert len(np.unique(steps)) == 1, "Different intervals between simulation gammas."
 
         # Load S0 value
-        min_idx = np.argmin(gammas)
-        with open(f'{self.inputs_dir}/{data_files[min_idx]}', 'r') as file:
+        min_idx = np.argmax(gammas)
+        with open(f'{self.inputs_dir}/eq_{data_files[min_idx]}', 'r') as file:
             lines = file.readlines()
         self.U = float(lines[0].split('\t')[1])
-        self.beta = float(lines[0].split('\t')[-3])
-        self.S0 = -self.beta * self.U
+        self.T = float(lines[0].split('\t')[-3])
+        self.S0 = -self.U / self.T
 
 
 
@@ -99,7 +98,7 @@ class Integrator:
             for col in range(len(self.gammas)):
                 if col == row: continue
                 self.means_matrix[row, col] = self.reweighted_mean(self.dlists[col], self.gammas[col], self.gammas[row])
-        self.means = np.mean(means_matrix, axis = 1)
+        self.means = np.mean(self.means_matrix, axis = 1)
 
 
 
@@ -131,9 +130,10 @@ class Integrator:
             predicted_mean = self.predict_mean(self.gammas[idx] + step)
             increment = (step / 6.) * (self.means[idx] + 4.*predicted_mean + self.means[idx + 1])
             self.S[idx + 1] = self.S[idx] + increment
+            print(idx, self.gammas[idx], step, predicted_mean, increment)
 
         with open(f'{self.results_dir}/Simpson_{self.file_id}.dat', 'w') as file:
-            for gamma_n, S_n, dS_n in zip(self.gammas, self.S, self.means):
+            for gamma_n, S_n, dS_n in zip(self.gammas, self.S, -self.means):
                 print(f'{gamma_n}\t{S_n}\t{dS_n}', file = file)
 
 
@@ -149,38 +149,31 @@ class Integrator:
             self.S[idx + 1] = self.S[idx] + increment
 
         with open(f'{self.results_dir}/MidPoint_{self.file_id}.dat', 'w') as file:
-            for gamma_n, S_n, dS_n in zip(self.gammas, self.S, self.means):
+            for gamma_n, S_n, dS_n in zip(self.gammas, self.S, -self.means):
                 print(f'{gamma_n}\t{S_n}\t{dS_n}', file = file)
 
 
 
     ### Set modules
-    def set_discarded_mutations(self, discarded_mutations : int):
-        assert discarded_mutations >= 0, "discarded_mutations can't be negative."
-        self.discarded_mutations = discarded_mutations
-        self.load_data(self.discarded_mutations, self.const_step)
-
     def set_inputs_dir(self, inputs_dir : str):
         if inputs_dir[-1] == '/': inputs_dir = inputs_dir[:-1]
-        inputs_dir = inputs_dir.split('/')[-2:]
-        self.inputs_dir = f'../RestrainedMetropolis/results/{inputs_dir[0]}/{inputs_dir[1]}'
-        self.results_dir = f'../results/{inputs_dir[0]}'
-        self._get_id(inputs_dir[1])
+        self.inputs_dir = inputs_dir
+        
+        self._get_id()
         self._check_dir()
 
     def set_const_step(self, const_step : bool):
         self.const_step = const_step
-        self.load_data(self.discarded_mutations, self.const_step)
+        self.load_data(self.const_step)
 
 
 
     ### Get modules
-    def get_discared_mutations(self): return self.discarded_mutations
     def get_const_step(self): return self.const_step
     def get_inputs_dir(self): return self.inputs_dir
     def get_results_dir(self): return self.results_dir
     def get_file_id(self): return self.file_id
-    def get_beta(self): return self.beta
+    def get_T(self): return self.T
     def get_U(self): return self.U
     def get_S0(self): return self.S0
     def get_gammas(self): return self.gammas
