@@ -1,0 +1,9 @@
+1PGB-wt
+0.005
+test
+1
+
+	>> protein_name
+	>> T
+	>> inputs_dir_raw
+	>> const_step

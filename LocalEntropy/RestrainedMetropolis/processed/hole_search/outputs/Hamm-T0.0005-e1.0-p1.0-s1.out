@@ -1,0 +1,9 @@
+pid: 2016212
+Loading inputs...
+Preparing algorithm...
+
+Starting the calculation for same pdfs...
+- group 1:
+progress: 0/67000	time: 0.0 s	partial time: 0.0
+progress: 1000/67000	time: 1037.2 s	partial time: 1037.2
+progress: 2000/67000	time: 2198.5 s	partial time: 1161.3
