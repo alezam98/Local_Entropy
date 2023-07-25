@@ -1,0 +1,37 @@
+1PGB
+MTYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE
+100_000
+0.0032
+120.0
+120.0
+1
+5
+0
+0.2
+20_000
+results
+5
+1
+1
+1
+2
+4.
+
+	>> protein_name
+	>> wt_sequence
+	>> mutations
+	>> T
+	>> gamma_i
+	>> gamma_f
+	>> num_gammas
+	>> y
+	>> seed
+	>> eq_energy
+	>> unique_length
+	>> results_dir
+	>> step
+	>> restart
+	>> load
+	>> comb
+	>> device
+	>> distance_threshold
